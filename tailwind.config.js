@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
-	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+	mode: "jit", // Enable JIT mode
+	purge: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"], // Adjust purge paths as needed
 	theme: {
 		extend: {},
 	},
