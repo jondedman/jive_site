@@ -28,7 +28,7 @@ function Header() {
 							className="block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
 							href="#"
 						>
-							Solutions
+							Publications
 						</a>
 						<ul className="invisible absolute z-30 space-y-2 rounded-lg border border-slate-50 bg-white p-4 opacity-0 shadow-xl transition-opacity delay-75 ease-in-out group-hover:visible group-hover:opacity-100 dark:border-slate-800 dark:bg-slate-900">
 							<li>
@@ -36,7 +36,7 @@ function Header() {
 									className="undefined block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
 									href="#"
 								>
-									Business Line of Credit
+									Publication 1
 								</a>
 							</li>
 							<li>
@@ -44,7 +44,7 @@ function Header() {
 									className="undefined block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
 									href="#"
 								>
-									SBA Loan
+									Publication 2
 								</a>
 							</li>
 							<li>
@@ -52,7 +52,7 @@ function Header() {
 									className="undefined block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
 									href="#"
 								>
-									Revenue Based Financing
+									Publication 3
 								</a>
 							</li>
 							<li>
@@ -60,7 +60,7 @@ function Header() {
 									className="undefined block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
 									href="#"
 								>
-									Invoice Factoring
+									Publication 4
 								</a>
 							</li>
 						</ul>
@@ -79,6 +79,14 @@ function Header() {
 							href="/contact"
 						>
 							Contact
+						</a>
+					</li>
+					<li className="group relative">
+						<a
+							className="block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
+							href="/Team"
+						>
+							Team
 						</a>
 					</li>
 				</ul>
@@ -155,15 +163,21 @@ function Header() {
             whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
 							href="#"
 						>
-							Solutions
+							Publications
 						</a>
 						<ul className="h-0 space-y-2 overflow-y-hidden bg-slate-50 px-4 py-0 transition-all delay-75 ease-in-out group-hover:h-full group-hover:py-4 dark:bg-slate-800">
 							<li>
 								<a
 									className="undefined block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
 									href="#"
+								></a>
+							</li>
+							<li>
+								<a
+									className="undefined block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
+									href="#"
 								>
-									Business Line of Credit
+									Publication 1
 								</a>
 							</li>
 							<li>
@@ -171,7 +185,7 @@ function Header() {
 									className="undefined block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
 									href="#"
 								>
-									SBA Loan
+									Publication 2
 								</a>
 							</li>
 							<li>
@@ -179,15 +193,7 @@ function Header() {
 									className="undefined block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
 									href="#"
 								>
-									Revenue Based Financing
-								</a>
-							</li>
-							<li>
-								<a
-									className="undefined block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
-									href="#"
-								>
-									Invoice Factoring
+									Publication 3
 								</a>
 							</li>
 						</ul>
