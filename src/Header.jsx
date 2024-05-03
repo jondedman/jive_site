@@ -6,8 +6,8 @@ function Header() {
 		<header className="container mx-auto flex w-full items-center justify-between py-4 px-6">
 			<a href="#">
 				<div className="w-full text-center text-lg font-extrabold sm:w-fit sm:text-left">
-					<span className="text-cyan-500">Julia </span>
-					<span className="dark:text-slate-400">Ive</span>
+					<span className="text-cyan-500">J</span>
+					<span className="dark:text-slate-400">IVE</span>
 				</div>
 			</a>
 			<nav className="hidden bg-white text-base dark:bg-slate-900 sm:block">
@@ -73,6 +73,17 @@ function Header() {
 							About
 						</a>
 					</li>
+					<li className="group relative">
+						<a
+							className="block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
+							href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=WMYcG5EAAAAJ&sortby=pubdate"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Google Scholar
+						</a>
+					</li>
+
 					<li className="group relative">
 						<a
 							className="block whitespace-nowrap px-2 py-2 text-sm text-slate-900 no-underline transition hover:text-slate-900 dark:text-slate-50 dark:hover:text-slate-50"
