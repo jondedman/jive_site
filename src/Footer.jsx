@@ -1,11 +1,11 @@
 function Footer() {
 	return (
-		<footer className="mt-28 bg-slate-50 dark:bg-black">
+		<footer className="mt-28 bg-slate-50">
 			<div className="container mx-auto flex flex-col items-start space-y-12 px-8 pb-8 pt-12 md:flex-row md:space-y-0 md:space-x-12 md:px-12">
 				<div className="flex w-full flex-col space-y-4 text-center md:w-2/5 md:text-left">
 					<div className="w-full text-lg font-extrabold md:w-fit md:text-left">
 						<span className="text-cyan-500">J</span>
-						<span className="dark:text-slate-400">IVE</span>
+						<span className="text-slate-800">IVE</span>
 					</div>
 					{/* <p className="text-sm text-slate-600">
 						UniqueFund provides access to fast and reliable financing solutions
@@ -140,7 +140,7 @@ function Footer() {
 					</ul>
 				</div> */}
 			</div>
-			<div className="container mx-auto border-t border-slate-200 p-8 text-center text-sm text-slate-600 dark:border-slate-900 md:flex-row md:px-12">
+			<div className="container mx-auto border-t border-slate-200 p-8 text-center text-sm text-slate-600  md:flex-row md:px-12">
 				© 2024 JIVE. All rights reserved.
 			</div>
 		</footer>
