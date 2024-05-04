@@ -7,10 +7,10 @@ function Footer() {
 						<span className="text-cyan-500">J</span>
 						<span className="dark:text-slate-400">IVE</span>
 					</div>
-					<p className="text-sm text-slate-600">
+					{/* <p className="text-sm text-slate-600">
 						UniqueFund provides access to fast and reliable financing solutions
 						for SMEs.
-					</p>
+					</p> */}
 				</div>
 				{/* <div className="w-full text-center text-slate-600 md:w-1/5 md:text-left">
 					<div className="text-sm font-semibold">Company</div>
