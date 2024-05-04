@@ -89,7 +89,7 @@ function Header() {
 							className="block whitespace-nowrap px-2 py-2 text-sm text-slate-600 no-underline transition hover:text-slate-900"
 							href="/contact"
 						>
-							Contact
+							<a href="mailto:j.ive@qmul.ac.uk">j.ive@qmul.ac.uk</a>
 						</a>
 					</li>
 					<li className="group relative">
@@ -172,11 +172,11 @@ function Header() {
 						<a
 							className="mx-4 block
             whitespace-nowrap px-2 py-2 text-sm text-slate-600 no-underline transition hover:text-slate-900 "
-							href="#"
+							href="#publications"
 						>
 							Publications
 						</a>
-						<ul className="h-0 space-y-2 overflow-y-hidden bg-slate-50 px-4 py-0 transition-all delay-75 ease-in-out group-hover:h-full group-hover:py-4 ">
+						{/* <ul className="h-0 space-y-2 overflow-y-hidden bg-slate-50 px-4 py-0 transition-all delay-75 ease-in-out group-hover:h-full group-hover:py-4 ">
 							<li>
 								<a
 									className="undefined block whitespace-nowrap px-2 py-2 text-sm text-slate-600 no-underline transition hover:text-slate-900 "
@@ -207,24 +207,35 @@ function Header() {
 									Publication 3
 								</a>
 							</li>
-						</ul>
+						</ul> */}
 					</li>
 					<li className="group relative w-full overflow-x-visible text-right">
 						<a
 							className="mx-4 block
             whitespace-nowrap px-2 py-2 text-sm text-slate-600 no-underline transition hover:text-slate-900 "
-							href="/about"
+							href="#news"
 						>
-							About
+							News
+						</a>
+					</li>
+					<li className="group relative w-full overflow-x-visible text-right">
+						<a
+							className="mx-4 block
+						whitespace-nowrap px-2 py-2 text-sm text-slate-600 no-underline transition hover:text-slate-900"
+							href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=WMYcG5EAAAAJ&sortby=pubdate"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Google Scholar
 						</a>
 					</li>
 					<li className="group relative w-full overflow-x-visible text-right">
 						<a
 							className="mx-4 block
             whitespace-nowrap px-2 py-2 text-sm text-slate-900 no-underline transition hover:text-slate-900 dark:text-slate-50 "
-							href="/contact"
+							href="#"
 						>
-							Contact
+							<a href="mailto:j.ive@qmul.ac.uk">j.ive@qmul.ac.uk</a>
 						</a>
 					</li>
 				</ul>
