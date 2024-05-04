@@ -25,7 +25,7 @@ const Carousel = ({
 
 	return (
 		<div id="news" className="relative w-full h-full mb-2">
-			<h1 className="w-full text-center text-4xl font-extrabold dark:text-slate-50 md:mx-auto md:w-4/5 mb-4">
+			<h1 className="w-full text-center text-4xl font-extrabold md:mx-auto md:w-4/5 mb-4">
 				<span className="text-cyan-500">N</span>
 				<span>ews</span>
 			</h1>
