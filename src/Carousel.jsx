@@ -24,35 +24,37 @@ const Carousel = ({
 	}, [autoSlide, autoSlideInterval, next]);
 
 	return (
-		<div className="overflow-hidden relative w-full h-96">
-			<div
-				className="flex transition-transform ease-out duration-500"
-				style={{ transform: `translateX(-${curr * 100}%)` }}
-			>
-				{slides}
-			</div>
-			<div className="absolute inset-0 flex items-center justify-between p-4">
-				<button
-					onClick={prev}
-					className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
+		<div className="relative w-full h-full">
+			<div className="overflow-hidden">
+				<div
+					className="flex transition-transform ease-out duration-500"
+					style={{ transform: `translateX(-${curr * 100}%)` }}
 				>
-					left
-					{/* <ChevronLeft /> */}
-				</button>
-				<button
-					onClick={next}
-					className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
-				>
-					right
-					{/* <ChevronRight /> */}
-				</button>
+					{slides}
+				</div>
+				<div className="absolute bottom-48 -left-4 -right-4 flex items-center justify-between">
+					<button
+						onClick={prev}
+						className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
+					>
+						left
+						{/* <ChevronLeft /> */}
+					</button>
+					<button
+						onClick={next}
+						className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
+					>
+						right
+						{/* <ChevronRight /> */}
+					</button>
+				</div>
 			</div>
 			<div className="absolute bottom-4 right-0 left-0">
 				<div className="flex items-center justify-center gap-2">
 					{slides.map((s, i) => (
 						<div
 							key={i}
-							className={`transition-all w-1.5 h-1.5 bg-white rounded-full  ${
+							className={`transition-all w-1.5 h-1.5 bg-black rounded-full  ${
 								curr === i ? "p-0.5" : "bg-opacity-50"
 							}`}
 						/>
