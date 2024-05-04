@@ -12,7 +12,7 @@ function Footer() {
 						for SMEs.
 					</p>
 				</div>
-				<div className="w-full text-center text-slate-600 md:w-1/5 md:text-left">
+				{/* <div className="w-full text-center text-slate-600 md:w-1/5 md:text-left">
 					<div className="text-sm font-semibold">Company</div>
 					<ul className="text-sm">
 						<li className="pt-3">
@@ -138,10 +138,10 @@ function Footer() {
 							</a>
 						</li>
 					</ul>
-				</div>
+				</div> */}
 			</div>
 			<div className="container mx-auto border-t border-slate-200 p-8 text-center text-sm text-slate-600 dark:border-slate-900 md:flex-row md:px-12">
-				© 2024 PHASEGroup. All rights reserved.
+				© 2024 JIVE. All rights reserved.
 			</div>
 		</footer>
 	);
