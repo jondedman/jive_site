@@ -124,8 +124,8 @@ function App() {
 			{/* <h2 className="font-manrope text-4xl font-bold text-gray-900 text-center mb-16 mt-8">
 				News
 			</h2> */}
-			<NewsTwo />
-			<NewsTwo />
+			{/* <NewsTwo />
+			<NewsTwo /> */}
 			<StaffColumns />
 			<Footer />
 
