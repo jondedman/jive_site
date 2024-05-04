@@ -1,74 +1,125 @@
+import linkage from "./assets/Linkage.jpg";
+import clone from "./assets/codeClone.jpg";
+import social from "./assets/socialMedia.jpg";
+
 function Publications() {
 	return (
-		<section className="py-24 ">
+		<section className="py-24">
 			<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 				<h2 className="font-manrope text-4xl font-bold text-gray-900 text-center mb-14">
-					Our popular blogs
+					Papers and publications
 				</h2>
-				<div className="flex justify-center mb-14 gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8">
-					<div className="group cursor-pointer w-full max-lg:max-w-xl lg:w-1/3 border border-gray-300 rounded-2xl p-5 transition-all duration-300 hover:border-indigo-600">
-						<div className="flex items-center mb-6">
+				<div className="flex justify-center mb-14 gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-around lg:gap-x-8">
+					<a
+						href="https://arxiv.org/abs/2404.19486v1"
+						target="_blank"
+						rel="noreferrer"
+						className="group relative cursor-pointer w-full max-lg:max-w-xl lg:w-1/4 h-90 border border-gray-300 rounded-2xl p-3 transition-all duration-300 hover:border-indigo-600"
+					>
+						<div className="flex items-center justify-center mb-6 h-40">
 							<img
-								src="https://pagedone.io/asset/uploads/1696244553.png"
-								alt="Harsh image"
-								className="rounded-lg w-full"
+								src={linkage}
+								alt="Unsplash image of network by Alina Grubnyak"
+								className="rounded-lg w-full h-full object-cover"
 							></img>
 						</div>
 						<div className="block">
-							<h4 className="text-gray-900 font-medium leading-8 mb-9">
-								Fintech 101: Exploring the Basics of Electronic Payments
+							<h4 className="text-gray-900 text-sm font-bold leading-8 mb-9">
+								Safe Training with Sensitive In-domain Data: Leveraging Data
+								Fragmentation To Mitigate Linkage Attacks
 							</h4>
 							<div className="flex items-center justify-between  font-medium">
-								<h6 className="text-sm text-gray-500">By Harsh C.</h6>
-								<span className="text-sm text-indigo-600">2 year ago</span>
+								<h6 className="absolute bottom-4 text-sm text-gray-500">
+									Ignashina, M., & Ive, J. (2024)
+								</h6>
 							</div>
 						</div>
-					</div>
-					<div className="group cursor-pointer w-full max-lg:max-w-xl lg:w-1/3 border border-gray-300 rounded-2xl p-5 transition-all duration-300 hover:border-indigo-600">
-						<div className="flex items-center mb-6">
+					</a>
+
+					<a
+						href="https://arxiv.org/abs/2312.16488v1"
+						target="_blank"
+						rel="noreferrer"
+						className="group relative cursor-pointer w-full max-lg:max-w-xl lg:w-1/4 h-90 border border-gray-300 rounded-2xl p-3 transition-all duration-300 hover:border-indigo-600"
+					>
+						<div className="flex items-center mb-6 h-40">
 							<img
-								src="https://pagedone.io/asset/uploads/1696244579.png"
-								alt="John image"
-								className="rounded-lg w-full"
+								src={clone}
+								alt="floating orb by Michael Dziedzic on Unsplash"
+								className="rounded-lg w-full h-full object-cover"
 							></img>
 						</div>
 						<div className="block">
-							<h4 className="text-gray-900 font-medium leading-8 mb-9">
-								From classNameroom to Cyberspace: The Growing Influence of
-								EdTech in Fintech
+							<h4 className="text-gray-900 text-sm font-bold leading-8 mb-9">
+								Source Code is a Graph, Not a Sequence: A Cross-Lingual
+								Perspective on Code Clone Detection.
 							</h4>
-							<div className="flex items-center justify-between  font-medium">
-								<h6 className="text-sm text-gray-500">By John D.</h6>
-								<span className="text-sm text-indigo-600">2 year ago</span>
+							<div className="flex absolute bottom-4 items-center justify-between  font-medium">
+								<h6 className="text-sm text-gray-500">
+									Rahaman, M. A., & Ive, J. (2023)
+								</h6>
 							</div>
 						</div>
-					</div>
-					<div className="group cursor-pointer w-full max-lg:max-w-xl lg:w-1/3 border border-gray-300 rounded-2xl p-5 transition-all duration-300 hover:border-indigo-600">
-						<div className="flex items-center mb-6">
+					</a>
+
+					<a
+						href="https://aclanthology.org/2024.clpsych-1.22.pdf"
+						target="_blank"
+						rel="noreferrer"
+						className="group relative cursor-pointer w-full max-lg:max-w-xl lg:w-1/4 h-90 border border-gray-300 rounded-2xl p-3 transition-all duration-300 hover:border-indigo-600"
+					>
+						<div className="flex items-center mb-6 h-40">
 							<img
-								src="https://pagedone.io/asset/uploads/1696244619.png"
-								alt="Alexa image"
-								className="rounded-lg w-full"
+								src={social}
+								alt="streaks of light by Chrisopher burns on Unsplash"
+								className="rounded-lg w-full h-full object-cover"
 							></img>
 						</div>
 						<div className="block">
-							<h4 className="text-gray-900 font-medium leading-8 mb-9">
-								Fintech Solutions for Student Loans: Easing the Burden of
-								Education Debt
+							<h4 className="text-gray-900 text-sm font-bold leading-8 mb-9">
+								Using Large Language Models (LLMs) to Extract Evidence from
+								Pre-Annotated Social Media Data. (232–237)
 							</h4>
-							<div className="flex items-center justify-between  font-medium">
-								<h6 className="text-sm text-gray-500">By Alexa H.</h6>
-								<span className="text-sm text-indigo-600">2 year ago</span>
+							<div className="flex  absolute bottom-4 items-center justify-between  font-medium">
+								<h6 className="text-sm text-gray-500">
+									Alhamed, F., Ive, J., & Specia, L. (2024)
+								</h6>
 							</div>
 						</div>
-					</div>
+					</a>
+
+					<a
+						href="https://aclanthology.org/2024.clpsych-1.22.pdf"
+						target="_blank"
+						rel="noreferrer"
+						className="group relative cursor-pointer w-full max-lg:max-w-xl lg:w-1/4 h-90 border border-gray-300 rounded-2xl p-3 transition-all duration-300 hover:border-indigo-600"
+					>
+						<div className="flex items-center mb-6 h-40">
+							<img
+								src={social}
+								alt="streaks of light by Chrisopher burns on Unsplash"
+								className="rounded-lg w-full h-full object-cover"
+							></img>
+						</div>
+						<div className="block">
+							<h4 className="text-gray-900 text-sm font-bold leading-8 mb-9">
+								Using Large Language Models (LLMs) to Extract Evidence from
+								Pre-Annotated Social Media Data. (232–237)
+							</h4>
+							<div className="flex  absolute bottom-4 items-center justify-between  font-medium">
+								<h6 className="text-sm text-gray-500">
+									Alhamed, F., Ive, J., & Specia, L. (2024)
+								</h6>
+							</div>
+						</div>
+					</a>
 				</div>
-				<a
+				{/* <a
 					href="javascript:;"
 					className="cursor-pointer border border-gray-300 shadow-sm rounded-full py-3.5 px-7 w-52 flex justify-center items-center text-gray-900 font-semibold mx-auto transition-all duration-300 hover:bg-gray-100"
 				>
 					View All
-				</a>
+				</a> */}
 			</div>
 		</section>
 	);

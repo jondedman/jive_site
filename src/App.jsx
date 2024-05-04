@@ -109,7 +109,7 @@ function App() {
 			<TwoColumnsWithImage />
 			{/* <News /> */}
 			<Publications />
-			<div className="flex justify-center items-center bg-white h-full">
+			<div className="flex justify-center items-center bg-white h-full mx-4">
 				<div className="max-w-lg">
 					<Carousel autoSlide={false}>
 						{slides.map((slide, index) => (
