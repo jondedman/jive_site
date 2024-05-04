@@ -10,14 +10,14 @@ function Header() {
 					<span className="text-slate-800">IVE</span>
 				</div>
 			</a>
-			<nav className="hidden bg-white text-base sm:block">
+			<nav className="hidden bg-white text-md sm:block">
 				<ul
 					className="flex items
         -center space-x-2"
 				>
 					<li className="group relative">
 						<a
-							className="block whitespace-nowrap px-2 py-2 text-sm text-slate-600 no-underline transition hover:text-slate-900"
+							className="block whitespace-nowrap px-2 py-2 text-md text-slate-600 no-underline transition hover:text-slate-900"
 							href="/"
 						>
 							Home
@@ -25,7 +25,7 @@ function Header() {
 					</li>
 					<li className="group relative">
 						<a
-							className="block whitespace-nowrap px-2 py-2 text-sm text-slate-600 no-underline transition hover:text-slate-900"
+							className="block whitespace-nowrap px-2 py-2 text-md text-slate-600 no-underline transition hover:text-slate-900"
 							href="#publications"
 						>
 							Publications
@@ -67,7 +67,7 @@ function Header() {
 					</li>
 					<li className="group relative">
 						<a
-							className="block whitespace-nowrap px-2 py-2 text-sm text-slate-600 no-underline transition hover:text-slate-900"
+							className="block whitespace-nowrap px-2 py-2 text-md text-slate-600 no-underline transition hover:text-slate-900"
 							href="#news"
 						>
 							News
@@ -75,7 +75,7 @@ function Header() {
 					</li>
 					<li className="group relative">
 						<a
-							className="block whitespace-nowrap px-2 py-2 text-sm text-slate-600 no-underline transition hover:text-slate-900"
+							className="block whitespace-nowrap px-2 py-2 text-md text-slate-600 no-underline transition hover:text-slate-900"
 							href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=WMYcG5EAAAAJ&sortby=pubdate"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -86,7 +86,7 @@ function Header() {
 
 					<li className="group relative">
 						<a
-							className="block whitespace-nowrap px-2 py-2 text-sm text-slate-600 no-underline transition hover:text-slate-900"
+							className="block whitespace-nowrap px-2 py-2 text-md text-slate-600 no-underline transition hover:text-slate-900"
 							href="/contact"
 						>
 							<a href="mailto:j.ive@qmul.ac.uk">j.ive@qmul.ac.uk</a>
@@ -94,7 +94,7 @@ function Header() {
 					</li>
 					<li className="group relative">
 						<a
-							className="block whitespace-nowrap px-2 py-2 text-sm text-slate-600 no-underline transition hover:text-slate-900"
+							className="block whitespace-nowrap px-2 py-2 text-md text-slate-600 no-underline transition hover:text-slate-900"
 							href="#team"
 						>
 							Team
