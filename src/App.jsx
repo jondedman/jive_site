@@ -18,6 +18,7 @@ import Event from "./Event1";
 import promiseAi from "./assets/promiseAi.jpeg";
 import structures from "./assets/joel-filipe-unsplash.jpg";
 import bias from "./assets/mitigating_bias.png";
+import Videos from "./Videos";
 
 // const slides = [
 // 	<div key="pub1">
@@ -109,6 +110,7 @@ function App() {
 			<TwoColumnsWithImage />
 			{/* <News /> */}
 			<Publications />
+			<Videos />
 			<div className="flex justify-center items-center bg-white h-full mx-4">
 				<div className="max-w-lg">
 					<Carousel autoSlide={false}>
