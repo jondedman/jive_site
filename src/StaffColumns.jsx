@@ -6,11 +6,10 @@ import Matt from "./assets/Matt.jpeg";
 function StaffColumns() {
 	return (
 		<section id="team" className="container mx-auto px-12 py-16">
-			<h1 className="w-full text-center text-4xl font-extrabold dark:text-slate-50 md:mx-auto md:w-4/5">
-				<span className="dark:text-slate-400">The</span>{" "}
-				<span className="text-cyan-500">Team</span>
+			<h1 className="w-full text-center text-4xl font-extrabold md:mx-auto md:w-4/5">
+				<span>The</span> <span className="text-cyan-500">Team</span>
 			</h1>
-			<div className="flex w-full flex-col justify-between rounded-lg bg-white py-8 px-6 text-center text-slate-800 shadow-lg shadow-slate-200 transition dark:bg-slate-800 dark:shadow-slate-800">
+			<div className="flex w-full flex-col justify-between rounded-lg bg-white py-8 px-6 text-center text-slate-800 shadow-lg shadow-slate-200 transition ">
 				<div className="flex flex-col justify-between h-full w-full text-center text-sm border border-solid my-8">
 					<div>
 						<img
@@ -18,7 +17,7 @@ function StaffColumns() {
 							className="mx-auto mb-8 h-32 w-32 mt-8 object-cover rounded-full"
 							src={jive}
 						/>
-						<p className="mb-6 leading-relaxed text-slate-500 dark:text-slate-400">
+						<p className="mb-6 leading-relaxed text-slate-500">
 							Dr Julia Ive is the lab lead and an expert in guiding foundation
 							models for text generation with Reinforcement Learning (RL). Her
 							track record includes a major scientific breakthrough in the
@@ -59,7 +58,7 @@ function StaffColumns() {
 				</div>
 			</div>
 			<div className="flex flex-col space-y-6 md:flex-row md:space-y-0">
-				<div className="flex w-full flex-col justify-between rounded-lg bg-white py-8 px-6 text-center text-slate-800 shadow-lg shadow-slate-200 transition dark:bg-slate-800 dark:shadow-slate-800">
+				<div className="flex w-full flex-col justify-between rounded-lg bg-white py-8 px-6 text-center text-slate-800 shadow-lg shadow-slate-200 transition ">
 					<div className="flex flex-col justify-between h-full w-full text-center text-sm">
 						<div>
 							<img
@@ -67,7 +66,7 @@ function StaffColumns() {
 								className="mx-auto mb-8 h-32 w-32 mt-8 rounded-full"
 								src={Maria}
 							/>
-							<p className="mb-6 leading-relaxed text-slate-500 dark:text-slate-400">
+							<p className="mb-6 leading-relaxed text-slate-500 ">
 								Mariia has a Master of Science with Distinction in Computer
 								Science, Queen Mary University of London, and a Bachelor of
 								Science in Natural Language Processing, Higher School of
@@ -86,7 +85,7 @@ function StaffColumns() {
 					</div>
 				</div>
 
-				<div className="flex w-full flex-col justify-between rounded-lg bg-white py-8 px-6 text-center text-slate-800 shadow-lg shadow-slate-200 transition dark:bg-slate-800 dark:shadow-slate-800">
+				<div className="flex w-full flex-col justify-between rounded-lg bg-white py-8 px-6 text-center text-slate-800 shadow-lg shadow-slate-200 transition ">
 					<div className="flex flex-col justify-between h-full w-full text-center text-sm">
 						<div>
 							<img
@@ -94,7 +93,7 @@ function StaffColumns() {
 								className="mx-auto mb-8 h-32 w-32 mt-8 object-cover rounded-full"
 								src={Matt}
 							/>
-							<p className="mb-6 leading-relaxed text-slate-500 dark:text-slate-400">
+							<p className="mb-6 leading-relaxed text-slate-500">
 								Mateusz has a Bachelor in Electronic & Electrical Engineering,
 								University College London, and is studying towards a PhD in
 								Electronic Engineering, Queen Mary University of London. He is
@@ -111,7 +110,7 @@ function StaffColumns() {
 					</div>
 				</div>
 
-				<div className="flex w-full flex-col justify-between rounded-lg bg-white py-8 px-6 text-center text-slate-800 shadow-lg shadow-slate-200 transition dark:bg-slate-800 dark:shadow-slate-800">
+				<div className="flex w-full flex-col justify-between rounded-lg bg-white py-8 px-6 text-center text-slate-800 shadow-lg shadow-slate-200 transition ">
 					<div className="flex flex-col justify-between h-full w-full text-center text-sm">
 						<div>
 							<img
@@ -119,7 +118,7 @@ function StaffColumns() {
 								className="mx-auto mb-8 h-32 w-32 object-cover rounded-full mt-8"
 								src={Vishal}
 							/>
-							<p className="mb-6 leading-relaxed text-slate-500 dark:text-slate-400">
+							<p className="mb-6 leading-relaxed text-slate-500">
 								Vishal has a Masters in Artificial Intelligence in Computer
 								Vision and Robotics with Distinction, and a Bachelors in
 								Computer Science from RGPV University India. He is currently
