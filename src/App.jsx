@@ -19,6 +19,7 @@ import promiseAi from "./assets/promiseAi.jpeg";
 import structures from "./assets/joel-filipe-unsplash.jpg";
 import bias from "./assets/mitigating_bias.png";
 import Videos from "./Videos";
+import Collaborators from "./Collaborators";
 
 // const slides = [
 // 	<div key="pub1">
@@ -129,6 +130,7 @@ function App() {
 			{/* <NewsTwo />
 			<NewsTwo /> */}
 			<StaffColumns />
+			<Collaborators />
 			<Footer />
 
 			{/* Other components go here */}

@@ -24,7 +24,11 @@ const Carousel = ({
 	}, [autoSlide, autoSlideInterval, next]);
 
 	return (
-		<div className="relative w-full h-full">
+		<div className="relative w-full h-full mb-2">
+			<h1 className="w-full text-center text-4xl font-extrabold dark:text-slate-50 md:mx-auto md:w-4/5 mb-4">
+				<span className="text-cyan-500">N</span>
+				<span>ews</span>
+			</h1>
 			<div className="overflow-hidden">
 				<div
 					className="flex transition-transform ease-out duration-500"
