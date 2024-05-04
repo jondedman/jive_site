@@ -12,7 +12,7 @@ function StaffColumns() {
 			</h1>
 
 			<div className="flex flex-col space-y-6 md:flex-row md:space-y-0 justify-center">
-				<div className="flex w-1/4 flex-col justify-between rounded-lg bg-white py-8 px-6 text-center text-slate-800 shadow-lg shadow-slate-200 transition dark:bg-slate-800 dark:shadow-slate-800">
+				<div className="flex w-1/4 flex-col justify-between rounded-lg bg-white py-8 px-6 text-center text-slate-800 shadow-lg shadow-slate-200 transition">
 					<h4>
 						<a
 							href="https://github.com/Ataago"
