@@ -16,11 +16,11 @@ export default function TwoColumnsWithImage() {
 				/>
 			</div>
 			<div className="mr-4 w-full text-center sm:w-1/2 sm:text-left">
-				<h1 className="mb-6 text-3xl font-bold leading-tight dark:text-slate-50 md:text-4xl">
+				<h1 className="mb-6 text-3xl font-bold leading-tight md:text-4xl">
 					Our team is working on ethical aspects of human-AI collaboration, such
 					as bias, privacy and transparency.
 				</h1>
-				<p className="mb-2 leading-relaxed text-slate-700 dark:text-slate-400">
+				<p className="mb-2 leading-relaxed">
 					We are focusing on developing text rewriting techniques that
 					normalise, de-bias and de-identify text to build responsible AI models
 					that will protect sensitive information of individuals. This includes
