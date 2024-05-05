@@ -24,10 +24,10 @@ const Carousel = ({
 	}, [autoSlide, autoSlideInterval, next]);
 
 	return (
-		<div id="news" className="relative w-full h-full mb-2">
+		<div id="videos" className="relative w-full h-full mb-2">
 			<h1 className="w-full text-center text-4xl font-extrabold md:mx-auto md:w-4/5 mb-4">
-				<span className="text-cyan-500">N</span>
-				<span>ews</span>
+				<span className="text-cyan-500">V</span>
+				<span>ideos</span>
 			</h1>
 			<div className="overflow-hidden">
 				<div
@@ -36,7 +36,7 @@ const Carousel = ({
 				>
 					{slides}
 				</div>
-				<div className="absolute bottom-60 -left-4 -right-4 flex items-center justify-between">
+				<div className="absolute bottom-60 left-4 right-4 flex items-center justify-between">
 					<button
 						onClick={prev}
 						className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"

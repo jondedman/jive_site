@@ -17,8 +17,8 @@ export default function TwoColumnsWithImage() {
 			</div>
 			<div className="mr-4 w-full text-center sm:w-1/2 sm:text-left">
 				<h1 className="mb-6 text-3xl font-bold leading-tight md:text-4xl">
-					Our team is working on ethical aspects of human-AI collaboration, such
-					as bias, privacy and transparency.
+					The JIVE team is working on ethical aspects of human-AI collaboration,
+					such as bias, privacy and transparency.
 				</h1>
 				<p className="mb-2 leading-relaxed">
 					We are focusing on developing text rewriting techniques that

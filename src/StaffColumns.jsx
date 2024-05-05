@@ -70,11 +70,7 @@ function StaffColumns() {
 								Mariia has a Master of Science with Distinction in Computer
 								Science, Queen Mary University of London, and a Bachelor of
 								Science in Natural Language Processing, Higher School of
-								Economics University. She is currently working on mapping PHQ-9
-								questions to clinical notes of Cincinnati Childrens Hospital
-								patients, Identifying and eliminating potential bias in the
-								clinical notes of depressive patients, and Safe training with
-								sensitive in-domain data.
+								Economics University.
 							</p>
 						</div>
 

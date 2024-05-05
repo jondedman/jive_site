@@ -1,5 +1,7 @@
+import PropTypes from "prop-types";
+
 const Slide = ({ url }) => (
-	<div className="min-w-full max-w-md p-4 shadow-md rounded-lg m-2">
+	<div className="min-w-full max-w-md shadow-md rounded-lg m-2 flex-shrink-0">
 		<iframe
 			width="100%"
 			height="315"
@@ -10,5 +12,9 @@ const Slide = ({ url }) => (
 		></iframe>
 	</div>
 );
+
+Slide.propTypes = {
+	url: PropTypes.string.isRequired,
+};
 
 export default Slide;
