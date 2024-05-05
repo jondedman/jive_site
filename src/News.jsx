@@ -1,116 +1,153 @@
-// import { useRef, useEffect } from "react";
-// import { Swiper, SwiperSlide } from "swiper/react";
-// import "swiper/css"; // Import Swiper CSS
-// import { Navigation, SwiperCore } from "swiper/modules";
+import linkage from "./assets/Linkage.jpg";
+import clone from "./assets/codeClone.jpg";
+import social from "./assets/socialMedia.jpg";
+import MariiaPoster from "./assets/MariiaPoster.jpeg";
+import humanMachine from "./assets/humanMachine.jpg";
+import tableText from "./assets/tableText.jpg";
+import gold from "./assets/gold.jpg";
+import brainNetwork from "./assets/brainNetwork.jpg";
+import Exploiting from "./assets/Exploiting.jpg";
+import surf from "./assets/surf.jpg";
+import network from "./assets/network.jpg";
 
-// // Use SwiperCore modules
-// SwiperCore.use([Navigation]);
+function News() {
+	const events = [
+		{
+			imgSrc: linkage,
+			altText: "Photo by Joel Filipe on Unsplash",
+			date: "April 22, 2024",
+			title: "What will we be saying about AI in ten years’ time?",
+			description:
+				"Dr Julia Ive and Professor Gianluca Sergi will be discussing what crisis points may have emerged recently and what AI governance structures might look like.",
+			link: "",
+			speakers: [
+				{
+					name: "Dr Julia Ive",
+					url:
+						"https://www.qmul.ac.uk/eecs/about-us/equality-diversity-and-inclusion/women-in-computer-science-and-electronic-engineering/dr-julia-ive/",
+				},
+				{
+					name: "Professor Gianluca Sergi",
+					url: "https://www.nottingham.ac.uk/CLAS/people/gianluca.sergi",
+				},
+			],
+		},
+		{
+			imgSrc: clone,
+			altText: "Image from queen mary university of london event",
+			date: "April 18, 2024",
+			title:
+				"The promise of AI: working across disciplines for the public good",
+			description: "Dr Julia Ive will be presenting a seminar at the event.",
+			link:
+				"https://www.eventbrite.co.uk/e/the-promise-of-ai-working-across-disciplines-for-the-public-good-tickets-848336065007",
+			speakers: [
+				{
+					name: "David Leslie",
+					url: "https://www.turing.ac.uk/people/researchers/david-leslie",
+				},
+				{
+					name: "Dr Isadora Cruxen",
+					url:
+						"https://www.qmul.ac.uk/busman/staff/academic/profiles/cruxeni.html",
+				},
+			],
+		},
+		{
+			imgSrc: social,
+			altText:
+				"Image of the poster presented at AI for Mental Health Monitoring workshop",
+			date: "Mar 28, 2024",
+			title: "Mental Health Monitoring workshop",
+			description:
+				"Dr Julia Ive and Vishal Yadav presented the poster at AI for Mental Health Monitoring workshop at the Fringe Event of Alan Turing Institute.",
+			link: "src/assets/AT-poster-jive.pdf",
+			speakers: [
+				{
+					name: "Dr Julia Ive",
+					url: "https://www.qmul.ac.uk/eecs/about-us/equality-diversity",
+				},
+				{
+					name: "Vishal Yadav",
+					url: "",
+				},
+			],
+		},
+		{
+			imgSrc: MariiaPoster,
+			altText: "Mariia Ignashina presenting the poster",
+			date: "21-22 March",
+			title:
+				"Artificial Intelligence in Healthcare: Shaping the Future of Science (AI4H) Conference, University of Padua, Padova, Italy.",
+			description:
+				" Dr Julia Ive and Mariia present the poster for Mitigating Bias in Pediatric Mental Health Notes via rewriting.",
+			link: "https://ai4h.unipd.it/home/posters/",
+			speakers: [
+				{
+					name: "Dr Julia Ive ",
+					url: "https://www.qmul.ac.uk/eecs/about-us/equality-diversity",
+				},
+				{
+					name: "Mariia Ignashina",
+					url: "",
+				},
+			],
+		},
+		{
+			imgSrc: humanMachine,
+			altText: "Chat GPT abstract image of dots and lines",
+			date: "Mar 18, 2024",
+			title: "AI Ethics and Regulations",
+			description:
+				"Dr Julia Ive is a panel speaker at the joint event between Queen Mary Global Policy Institute, the Society for Computers and Law, and The World Bank.",
+			link: "src/assets/AT-poster-jive.pdf",
+			speakers: [
+				{
+					name: "Dr Julia Ive",
+					url: "https://www.youtube.com/watch?v=w6HUFTcHfPg",
+				},
+			],
+		},
+	];
 
-// function News() {
-// 	const swiperElRef = useRef(null);
+	return (
+		<section id="news" className="py-24">
+			<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+				<h2 className="font-manrope text-4xl font-bold text-gray-900 text-center mb-14">
+					News
+				</h2>
+				<div className="flex justify-center mb-14 gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-wrap lg:flex-row lg:justify-between lg:gap-x-8">
+					{events.map((event) => (
+						<a
+							key={event.link}
+							href={event.link}
+							target="_blank"
+							rel="noreferrer"
+							className="group relative cursor-pointer w-full max-lg:max-w-xl lg:w-1/4 h-90 border border-gray-300 rounded-2xl p-3 transition-all duration-300 hover:border-indigo-600 mb-8"
+						>
+							<div className="flex items-center justify-center mb-6 h-40">
+								<img
+									src={event.imgSrc}
+									alt={event.altText}
+									className="rounded-lg w-full h-full object-cover"
+								></img>
+							</div>
+							<div className="block">
+								<h4 className="text-gray-900 text-sm font-bold leading-8 mb-9">
+									{event.title}
+								</h4>
+								<div className="flex items-center justify-between  font-medium">
+									<h6 className="absolute bottom-4 text-sm text-gray-500">
+										{event.speakers.map((speaker) => speaker.name).join(", ")}
+									</h6>
+								</div>
+							</div>
+						</a>
+					))}
+				</div>
+			</div>
+		</section>
+	);
+}
 
-// 	useEffect(() => {
-// 		swiperElRef.current.addEventListener("swiperprogress", (e) => {
-// 			const [swiper, progress] = e.detail;
-// 			console.log(progress);
-// 		});
-
-// 		swiperElRef.current.addEventListener("swiperslidechange", () => {
-// 			console.log("slide changed");
-// 		});
-// 	}, []);
-
-// 	return (
-// 		<section className="py-24">
-// 			<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-// 				<div className="flex justify-center flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between gap-8">
-// 					<div className="w-full flex justify-between flex-col lg:w-2/5">
-// 						<div className="block lg:text-left text-center">
-// 							<h2 className="text-4xl font-bold text-gray-900 leading-[3.25rem] mb-5">
-// 								Our latest <span className=" text-indigo-600">blogs</span>
-// 							</h2>
-// 							<p className="text-gray-500 mb-10  max-lg:max-w-xl max-lg:mx-auto">
-// 								Welcome to our blog section, where knowledge meets inspiration.
-// 								Explore insightful articles, expert tips, and the latest trends
-// 								in our field.
-// 							</p>
-// 							<a
-// 								href="javascript:;"
-// 								className="cursor-pointer border border-gray-300 shadow-sm rounded-full py-3.5 px-7 w-52 lg:mx-0 mx-auto flex justify-center text-gray-900 font-semibold transition-all duration-300 hover:bg-gray-100"
-// 							>
-// 								View All
-// 							</a>
-// 						</div>
-// 						<div className="swiper-navigation flex items-center lg:justify-start justify-center lg:mt-0 mt-8 gap-8 mb-4">
-// 							{/* Swiper navigation buttons */}
-// 							<button
-// 								className="swiper-button-prev group flex justify-center items-center border border-solid border-indigo-600 w-11 h-11 transition-all duration-500 rounded-full hover:bg-indigo-600 swiper-button-prev"
-// 								data-carousel-prev
-// 							>
-// 								<svg
-// 									className="h-6 w-6 text-indigo-600 group-hover:text-white"
-// 									viewBox="0 0 24 24"
-// 									fill="none"
-// 									xmlns="http://www.w3.org/2000/svg"
-// 								>
-// 									{/* Previous button SVG */}
-// 								</svg>
-// 							</button>
-// 							<button
-// 								className="swiper-button-next group flex justify-center items-center border border-solid border-indigo-600 w-11 h-11 transition-all duration-500 rounded-full hover:bg-indigo-600 swiper-button-next"
-// 								data-carousel-next
-// 							>
-// 								<svg
-// 									className="h-6 w-6 text-indigo-600 group-hover:text-white"
-// 									viewBox="0 0 24 24"
-// 									fill="none"
-// 									xmlns="http://www.w3.org/2000/svg"
-// 								>
-// 									{/* Next button SVG */}
-// 								</svg>
-// 							</button>
-// 						</div>
-// 					</div>
-// 					<div className="w-full lg:w-3/5">
-// 						<Swiper
-// 							ref={swiperElRef}
-// 							slidesPerView={2}
-// 							spaceBetween={28}
-// 							centeredSlides={false}
-// 							loop={true}
-// 							navigation={{
-// 								prevEl: ".swiper-button-prev",
-// 								nextEl: ".swiper-button-next",
-// 							}}
-// 							breakpoints={{
-// 								0: {
-// 									slidesPerView: 1,
-// 									spaceBetween: 20,
-// 									centeredSlides: false,
-// 								},
-// 								568: {
-// 									slidesPerView: 2,
-// 									spaceBetween: 28,
-// 									centeredSlides: false,
-// 								},
-// 								768: {
-// 									slidesPerView: 2,
-// 									spaceBetween: 28,
-// 									centeredSlides: false,
-// 								},
-// 								1024: { slidesPerView: 2, spaceBetween: 32 },
-// 							}}
-// 							className="mySwiper"
-// 						>
-// 							<SwiperSlide>{/* Your slide content goes here */}</SwiperSlide>
-// 							<SwiperSlide>{/* Your slide content goes here */}</SwiperSlide>
-// 							{/* Add more SwiperSlide components as needed */}
-// 						</Swiper>
-// 					</div>
-// 				</div>
-// 			</div>
-// 		</section>
-// 	);
-// }
-
-// export default News;
+export default News;

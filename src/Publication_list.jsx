@@ -1,11 +1,10 @@
 function Publication_list() {
 	return (
 		<section id="publications" className="py-24">
-			<div className="mx-28 max-w-7xl px-4 sm:px-6 lg:px-8">
-				<h2 className="font-manrope text-4xl font-bold text-gray-900 text-left px-4 mb-8">
-					Publications
-				</h2>
-
+			<h2 className="font-manrope text-4xl font-bold text-gray-900 text-center px-6 mb-8">
+				Publications
+			</h2>
+			<div className="flex mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 				<ul className="space-y-4 leading-8 px-4 text-left">
 					<a
 						href="https://arxiv.org/abs/2404.19486v1"
@@ -13,7 +12,7 @@ function Publication_list() {
 						rel="noreferrer"
 						className="block hover:border-indigo-600 -py-4"
 					>
-						<li className="w-full border border-gray-300 rounded-2xl p-2 transition-all duration-300 hover:border-indigo-600">
+						<li className="w-full border border-transparent rounded-2xl transition-all duration-300 hover:border-indigo-600 px-2">
 							Ignashina, M., & Ive, J. (2024).{" "}
 							<span className="text-cyan-500 font-semi-bold">
 								Safe Training with Sensitive In-domain Data: Leveraging Data
@@ -27,7 +26,7 @@ function Publication_list() {
 						rel="noreferrer"
 						className="block hover:border-indigo-600 -py-4"
 					>
-						<li className="w-full border border-gray-300 rounded-2xl p-2 transition-all duration-300 hover:border-indigo-600">
+						<li className="w-full border border-transparent rounded-2xl px-2 transition-all duration-300 hover:border-indigo-600">
 							Rahaman, M. A., & Ive, J. (2023).{" "}
 							<span className="text-cyan-500 font-semi-bold">
 								Source Code is a Graph, Not a Sequence: A Cross-Lingual
@@ -41,7 +40,7 @@ function Publication_list() {
 						rel="noreferrer"
 						className="block hover:border-indigo-600 -py-4"
 					>
-						<li className="w-full border border-gray-300 rounded-2xl p-2 transition-all duration-300 hover:border-indigo-600">
+						<li className="w-full border border-transparent rounded-2xl px-2 transition-all duration-300 hover:border-indigo-600">
 							Alhamed, F., Ive, J., & Specia, L. (2024).
 							<span className="text-cyan-500 font-semi-bold">
 								Using Large Language Models (LLMs) to Extract Evidence from
@@ -56,7 +55,7 @@ function Publication_list() {
 						rel="noreferrer"
 						className="block hover:border-indigo-600 -py-4"
 					>
-						<li className="w-full border border-gray-300 rounded-2xl p-2 transition-all duration-300 hover:border-indigo-600">
+						<li className="w-full border border-transparent rounded-2xl px-2 transition-all duration-300 hover:border-indigo-600">
 							Popat, R., & Ive, J. (n.d.).
 							<span className="text-cyan-500 font-semi-bold">
 								{" "}
@@ -72,7 +71,7 @@ function Publication_list() {
 						rel="noreferrer"
 						className="block hover:border-indigo-600 -py-4"
 					>
-						<li className="w-full border border-gray-300 rounded-2xl p-2 transition-all duration-300 hover:border-indigo-600">
+						<li className="w-full border border-transparent rounded-2xl px-2 transition-all duration-300 hover:border-indigo-600">
 							Wu, H.-Y., Zhang, J., Ive, J., Li, T., Gupta, V., Chen, B., & Guo,
 							Y. (2022).
 							<span className="text-cyan-500 font-semi-bold">
@@ -88,7 +87,7 @@ function Publication_list() {
 						rel="noreferrer"
 						className="block hover:border-indigo-600 -py-4"
 					>
-						<li className="w-full border border-gray-300 rounded-2xl p-2 transition-all duration-300 hover:border-indigo-600">
+						<li className="w-full border border-transparent rounded-2xl px-2 transition-all duration-300 hover:border-indigo-600">
 							Ive, J. (2022).{" "}
 							<span className="text-cyan-500 font-semi-bold">
 								Leveraging the potential of synthetic text for AI in mental
@@ -103,7 +102,7 @@ function Publication_list() {
 						rel="noreferrer"
 						className="block hover:border-indigo-600 -py-4"
 					>
-						<li className="w-full border border-gray-300 rounded-2xl p-2 transition-all duration-300 hover:border-indigo-600">
+						<li className="w-full border border-transparent rounded-2xl px-2 transition-all duration-300 hover:border-indigo-600">
 							Anuchitanukul, A., & Ive, J. (2022).{" "}
 							<span className="text-cyan-500 font-semi-bold">
 								SURF: Semantic-level Unsupervised Reward Function for Machine
@@ -120,7 +119,7 @@ function Publication_list() {
 						rel="noreferrer"
 						className="block hover:border-indigo-600 -py-4"
 					>
-						<li className="w-full border border-gray-300 rounded-2xl p-2 transition-all duration-300 hover:border-indigo-600">
+						<li className="w-full border border-transparent rounded-2xl px-2 transition-all duration-300 hover:border-indigo-600">
 							Liu, H., Seedat, N., & Ive, J. (2022).{" "}
 							<span className="text-cyan-500 font-semi-bold">
 								Modeling Disagreement in Automatic Data Labelling for
@@ -135,7 +134,7 @@ function Publication_list() {
 						rel="noreferrer"
 						className="block hover:border-indigo-600 -py-4"
 					>
-						<li className="w-full border border-gray-300 rounded-2xl p-2 transition-all duration-300 hover:border-indigo-600">
+						<li className="w-full border border-transparent rounded-2xl px-2 transition-all duration-300 hover:border-indigo-600">
 							Ive, J., Li, A. M., Miao, Y., Caglayan, O., Madhyastha, P., &
 							Specia, L. (2021).
 							<span className="text-cyan-500 font-semi-bold">
@@ -152,7 +151,7 @@ function Publication_list() {
 						rel="noreferrer"
 						className="block hover:border-indigo-600 -py-4"
 					>
-						<li className="w-full border border-gray-300 rounded-2xl p-2 transition-all duration-300 hover:border-indigo-600">
+						<li className="w-full border border-transparent rounded-2xl px-2 transition-all duration-300 hover:border-indigo-600">
 							Ive, J., Viani, N., Kam, J., Yin, L., Verma, S., Puntis, S.,
 							Cardinal, R. N., Roberts, A., Stewart, R., & Velupillai, S.
 							(2020).{" "}

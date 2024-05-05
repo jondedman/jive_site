@@ -13,6 +13,7 @@ import bias from "./assets/mitigating_bias.png";
 import eagle from "./assets/eagle.jpg";
 import Videos from "./Videos";
 import Collaborators from "./Collaborators";
+import News from "./News";
 
 const slides = [
 	<div key="event1">
@@ -126,7 +127,8 @@ function App() {
 			<TwoColumnsWithImage />
 			{/* <Publications /> */}
 			<Publication_list />
-			<Videos />
+			<News />
+			{/* <Videos /> */}
 			<div className="flex justify-center items-center bg-white h-full mx-4">
 				<div className="max-w-lg">
 					<Carousel autoSlide={false}>
