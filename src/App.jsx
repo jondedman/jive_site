@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Carousel from "./Carousel";
 import MariiaPoster from "./assets/MariiaPoster.jpeg";
 import Publications from "./Publications";
+import Publication_list from "./Publication_list";
 import Event from "./Event1";
 import promiseAi from "./assets/promiseAi.jpeg";
 import structures from "./assets/joel-filipe-unsplash.jpg";
@@ -123,7 +124,8 @@ function App() {
 		<div className="App">
 			<Header />
 			<TwoColumnsWithImage />
-			<Publications />
+			{/* <Publications /> */}
+			<Publication_list />
 			<Videos />
 			<div className="flex justify-center items-center bg-white h-full mx-4">
 				<div className="max-w-lg">
