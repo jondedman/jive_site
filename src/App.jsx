@@ -14,6 +14,7 @@ import eagle from "./assets/eagle.jpg";
 import Videos from "./Videos";
 import Collaborators from "./Collaborators";
 import News from "./News";
+import NewsTwo from "./NewsTwo";
 
 const slides = [
 	<div key="event1">
@@ -127,7 +128,8 @@ function App() {
 			<TwoColumnsWithImage />
 			{/* <Publications /> */}
 			<Publication_list />
-			<News />
+			{/* <News /> */}
+			<NewsTwo />
 			{/* <Videos /> */}
 			<div className="flex justify-center items-center bg-white h-full mx-4">
 				<div className="max-w-lg">
