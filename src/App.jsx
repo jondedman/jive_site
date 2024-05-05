@@ -2,39 +2,16 @@ import Header from "./Header"; // Assuming Header is in the same directory
 import TwoColumnsWithImage from "./TwoColumnsWithImage";
 import StaffColumns from "./StaffColumns";
 import Footer from "./Footer";
-// import News from "./News";
-import NewsTwo from "./NewsTwo";
 import Carousel from "./Carousel";
-import jive from "./assets/jive_linkedin.jpg";
-import Maria from "./assets/Mariia.jpg";
-import Vishal from "./assets/Vishal-001.jpg";
-import Matt from "./assets/Matt.jpeg";
-import Pub1 from "./Pulication_one";
-import Pub2 from "./Publication_two";
-import Pub3 from "./Publication_three";
-import Pub4 from "./Publication_four";
+import MariiaPoster from "./assets/MariiaPoster.jpeg";
 import Publications from "./Publications";
 import Event from "./Event1";
 import promiseAi from "./assets/promiseAi.jpeg";
 import structures from "./assets/joel-filipe-unsplash.jpg";
 import bias from "./assets/mitigating_bias.png";
+import eagle from "./assets/eagle.jpg";
 import Videos from "./Videos";
 import Collaborators from "./Collaborators";
-
-// const slides = [
-// 	<div key="pub1">
-// 		<Pub1 />
-// 	</div>,
-// 	<div key="pub2">
-// 		<Pub2 />
-// 	</div>,
-// 	<div key="pub3">
-// 		<Pub3 />
-// 	</div>,
-// 	<div key="pub4">
-// 		<Pub4 />
-// 	</div>,
-// ];
 
 const slides = [
 	<div key="event1">
@@ -102,6 +79,43 @@ const slides = [
 			]}
 		/>
 	</div>,
+	<div key="event4">
+		<Event
+			imgSrc={MariiaPoster}
+			altText="Mariia Ignashina presenting the poster"
+			date="21-22 March"
+			title="Artificial Intelligence in Healthcare: Shaping the Future of Science (AI4H) Conference, University of Padua, Padova, Italy."
+			description=" Dr Julia Ive and Mariia present the poster for Mitigating Bias in Pediatric Mental Health Notes via rewriting."
+			link="https://ai4h.unipd.it/home/posters/
+		"
+			speakers={[
+				{
+					name: "Dr Julia Ive ",
+					url: "https://www.qmul.ac.uk/eecs/about-us/equality-diversity",
+				},
+				{
+					name: "Mariia Ignashina",
+					url: "",
+				},
+			]}
+		/>
+	</div>,
+	<div key="event5">
+		<Event
+			imgSrc={eagle}
+			altText="Chat GPT abstract image of dots and lines"
+			date="Mar 18, 2024"
+			title="AI Ethics and Regulations"
+			description="Dr Julia Ive is a panel speaker at the joint event between Queen Mary Global Policy Institute, the Society for Computers and Law, and The World Bank."
+			link="src/assets/AT-poster-jive.pdf"
+			speakers={[
+				{
+					name: "Dr Julia Ive",
+					url: "https://www.youtube.com/watch?v=w6HUFTcHfPg",
+				},
+			]}
+		/>
+	</div>,
 ];
 
 function App() {
@@ -109,7 +123,6 @@ function App() {
 		<div className="App">
 			<Header />
 			<TwoColumnsWithImage />
-			{/* <News /> */}
 			<Publications />
 			<Videos />
 			<div className="flex justify-center items-center bg-white h-full mx-4">

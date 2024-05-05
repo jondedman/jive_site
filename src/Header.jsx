@@ -232,7 +232,7 @@ function Header() {
 					<li className="group relative w-full overflow-x-visible text-right">
 						<a
 							className="mx-4 block
-            whitespace-nowrap px-2 py-2 text-sm text-slate-900 no-underline transition hover:text-slate-900 dark:text-slate-50 "
+            whitespace-nowrap px-2 py-2 text-sm text-slate-900 no-underline transition hover:text-slate-900"
 							href="#"
 						>
 							<a href="mailto:j.ive@qmul.ac.uk">j.ive@qmul.ac.uk</a>

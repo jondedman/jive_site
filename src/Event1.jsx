@@ -4,7 +4,11 @@ function Event({ imgSrc, altText, date, title, description, link, speakers }) {
 	return (
 		<div className="group w-full max-lg:max-w-xl border border-gray-300 rounded-2xl h-60vh">
 			<div className="flex items-center">
-				<img src={imgSrc} alt={altText} className="rounded-t-2xl w-full h-60" />
+				<img
+					src={imgSrc}
+					alt={altText}
+					className="rounded-t-2xl min-w-full object-cover h-60"
+				/>
 			</div>
 			<div className="p-4 lg:p-6 transition-all duration-300 rounded-b-2xl group-hover:bg-gray-50">
 				<span className="text-cyan-500 font-medium mb-3 block">{date}</span>
