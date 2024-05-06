@@ -45,7 +45,7 @@ function NewsThree() {
 						</div>
 					</div>
 
-					<div className="group w-full max-lg:max-w-xl lg:w-1/3 border border-gray-300 rounded-2xl">
+					{/* <div className="group w-full max-lg:max-w-xl lg:w-1/3 border border-gray-300 rounded-2xl">
 						<div className="flex items-center">
 							<img
 								src={gold}
@@ -68,6 +68,37 @@ function NewsThree() {
 							<a
 								className="cursor-pointer text-lg text-cyan-500 font-semibold"
 								href="https://www.youtube.com/watch?v=w6HUFTcHfPg"
+								rel="noopener noreferrer"
+								target="_blank"
+							>
+								Read more..
+							</a>
+						</div>
+					</div> */}
+
+					<div className="group w-full max-lg:max-w-xl lg:w-1/3 border border-gray-300 rounded-2xl">
+						<div className="flex items-center">
+							<img
+								src={gold}
+								alt="picture of gold blur"
+								className="rounded-t-2xl h-60 w-full"
+							/>
+						</div>
+						<div className="p-4 lg:p-6 transition-all duration-300 rounded-b-2xl group-hover:bg-gray-50">
+							<span className="text-cyan-500 font-medium mb-3 block">
+								Mar 18, 2024
+							</span>
+							<h4 className="text-xl text-gray-900 font-medium leading-8 mb-5">
+								Regulating AI in Digital Mental Health Forum
+							</h4>
+							<p className="text-gray-500 leading-6 mb-10">
+								{" "}
+								Dr Julia Ive will be speaking at the Regulating AI in Digital
+								Mental Health Forum, AI Turing Fringe Event.
+							</p>
+							<a
+								className="cursor-pointer text-lg text-cyan-500 font-semibold"
+								href="https://events.bizzabo.com/576079/agenda/speakers/3223878"
 								rel="noopener noreferrer"
 								target="_blank"
 							>

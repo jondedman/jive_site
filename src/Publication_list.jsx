@@ -18,6 +18,7 @@ function Publication_list() {
 								Safe Training with Sensitive In-domain Data: Leveraging Data
 								Fragmentation To Mitigate Linkage Attacks.
 							</span>
+							<span className="font-bold"> arXiv.</span>
 						</li>
 					</a>
 					<a
@@ -30,7 +31,10 @@ function Publication_list() {
 							Rahaman, M. A., & Ive, J. (2023).{" "}
 							<span className="text-cyan-500 font-semi-bold">
 								Source Code is a Graph, Not a Sequence: A Cross-Lingual
-								Perspective on Code Clone Detection.
+								Perspective on Code Clone Detection.{""}
+							</span>
+							<span className="font-bold">
+								To appear in NAACL Student Research Workshop (SRW) 2024.
 							</span>
 						</li>
 					</a>
