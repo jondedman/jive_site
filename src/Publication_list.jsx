@@ -1,7 +1,7 @@
 function Publication_list() {
 	return (
 		<section id="publications" className="py-24">
-			<h2 className="font-manrope text-4xl font-bold text-gray-900 text-center px-6 mb-8">
+			<h2 className="font-manrope text-4xl font-bold text-gray-900 text-center px-6 mb-6">
 				<span className="text-cyan-500 font-bold">P</span>
 				ublications
 			</h2>

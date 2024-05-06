@@ -10,7 +10,7 @@ function StaffColumns() {
 				<span>The</span> <span className="text-cyan-500">Team</span>
 			</h1>
 			<div className="flex w-full flex-col justify-between rounded-lg bg-white py-8 px-6 text-center text-slate-800 shadow-lg shadow-slate-200 transition ">
-				<div className="flex flex-col justify-between h-full w-full text-center text-sm border border-solid my-8">
+				<div className="flex flex-col justify-between h-full w-full text-center text-sm border border-solid mb-8">
 					<div>
 						<img
 							alt="Image of Dr Julia Ive"

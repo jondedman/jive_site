@@ -41,7 +41,7 @@ function App() {
 			<Publication_list />
 			<h1
 				id="news"
-				className="w-full text-center text-4xl font-extrabold md:mx-auto md:w-4/5 mt-12"
+				className="w-full text-center text-4xl font-extrabold md:mx-auto md:w-4/5 mt-12 mb-6"
 			>
 				<span className="text-cyan-500">N</span>
 				<span>ews</span>
