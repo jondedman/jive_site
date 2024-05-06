@@ -1,6 +1,7 @@
 import promiseAi from "./assets/promiseAi.jpeg";
 import structures from "./assets/joel-filipe-unsplash.jpg";
 import bias from "./assets/mitigating_bias.png";
+import poster from "./assets/AT-poster-jive.pdf";
 
 function NewsTwo() {
 	return (
@@ -109,7 +110,7 @@ function NewsTwo() {
 							</p>
 							<a
 								className="cursor-pointer text-lg text-cyan-500 font-semibold"
-								href="src/assets/AT-poster-jive.pdf"
+								href={poster}
 								rel="noopener noreferrer"
 								target="_blank"
 							>
