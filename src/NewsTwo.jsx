@@ -97,7 +97,7 @@ function NewsTwo() {
 								Mental Health Monitoring workshop
 							</h4>
 							<p className="text-gray-500 leading-6 mb-10">
-								Julia & Vishal presented the poster at AI for Mental Health
+								Julia and Vishal presented the poster at AI for Mental Health
 								Monitoring workshop at the{" "}
 								<a
 									className="underline text-cyan-500"
