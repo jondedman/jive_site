@@ -11,7 +11,7 @@ import MariiaPoster from "./assets/MariiaPoster.jpeg";
 
 function NewsThree() {
 	return (
-		<section className="py-12 ">
+		<section className="py-12 mb-12 ">
 			<div id="news" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 				<div className="flex justify-center  gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8">
 					<div className="group w-full max-lg:max-w-xl lg:w-1/3 border border-gray-300 rounded-2xl">

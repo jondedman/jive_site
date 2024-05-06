@@ -23,7 +23,7 @@ const Carousel = ({
 	}, [autoSlide, autoSlideInterval, next]);
 
 	return (
-		<div id="videos" className="relative w-full h-full mb-2">
+		<div id="videos" className="relative w-full h-full my-24">
 			<h1 className="w-full text-center text-4xl font-extrabold md:mx-auto md:w-4/5 mb-4">
 				<span className="text-cyan-500">V</span>
 				<span>ideos</span>
