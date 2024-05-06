@@ -31,8 +31,11 @@ const Carousel = ({
 			</h1>
 			<div className="overflow-hidden">
 				<div
-					className="flex transition-transform ease-out duration-500"
-					style={{ transform: `translateX(-${curr * 100}%)` }}
+					className="flex transition-transform ease-out duration-500 w-full"
+					style={{
+						width: `${100 * slides.length}%`,
+						transform: `translateX(-${(curr * 100) / slides.length}%)`,
+					}}
 				>
 					{slides}
 				</div>

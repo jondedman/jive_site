@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
 const Slide = ({ url }) => (
-	<div className="min-w-full max-w-md shadow-md rounded-lg m-2 flex-shrink-0">
+	<div className="w-full shadow-md rounded-lg m-2 w-full">
 		<iframe
 			width="100%"
 			height="315"
