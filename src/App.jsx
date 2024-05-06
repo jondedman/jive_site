@@ -16,6 +16,7 @@ import Collaborators from "./Collaborators";
 import News from "./News";
 import NewsTwo from "./NewsTwo";
 import Slide from "./Slide";
+import NewsThree from "./NewsThree";
 
 const videoUrls = [
 	"https://www.youtube.com/embed/Kqh9DtCNji4",
@@ -29,7 +30,12 @@ function App() {
 			<Header />
 			<TwoColumnsWithImage />
 			<Publication_list />
+			<h1 className="w-full text-center text-4xl font-extrabold md:mx-auto md:w-4/5">
+				<span className="text-cyan-500">N</span>
+				<span>ews</span>
+			</h1>
 			<NewsTwo />
+			<NewsThree />
 			<div className="flex justify-center items-center bg-white h-full mx-4">
 				<div className="max-w-lg">
 					<Carousel autoSlide={false}>
