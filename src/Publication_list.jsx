@@ -38,6 +38,23 @@ function Publication_list() {
 							</span>
 						</li>
 					</a>
+
+					<a
+						href="https://arxiv.org/abs/2404.19486v1"
+						target="_blank"
+						rel="noreferrer"
+						className="block hover:border-indigo-600 -py-4"
+					>
+						<li className="w-full border border-transparent rounded-2xl transition-all duration-300 hover:border-indigo-600 px-2">
+							Alhamed, F., Ive, J., & Specia, L. (2024).{" "}
+							<span className="text-cyan-500 font-semi-bold">
+								Classifying Social Media Users Before and After Depression
+								Diagnosis via their Language Usage: A Dataset and Study.
+							</span>
+							<span className="font-bold"> To appear in LREC-COLING 2024.</span>
+						</li>
+					</a>
+
 					<a
 						href="https://aclanthology.org/2024.clpsych-1.22.pdf"
 						target="_blank"
@@ -50,7 +67,11 @@ function Publication_list() {
 								Using Large Language Models (LLMs) to Extract Evidence from
 								Pre-Annotated Social Media Data.{" "}
 							</span>
-							232–237.
+							232–237.{" "}
+							<span className="font-bold">
+								9th Workshop on Computational Linguistics and Clinical
+								Psychology (CLPsych 2024).
+							</span>
 						</li>
 					</a>
 					<a
@@ -66,7 +87,8 @@ function Publication_list() {
 								Embracing the uncertainty in human-machine collaboration to
 								support clinical decision making for Mental Health Conditions.
 							</span>{" "}
-							Frontiers in Digital Health, 5, 1188338.
+							<span className="font-bold">Frontiers in Digital Health</span>, 5,
+							1188338.
 						</li>
 					</a>
 					<a
@@ -81,8 +103,10 @@ function Publication_list() {
 							<span className="text-cyan-500 font-semi-bold">
 								Medical Scientific Table-to-Text Generation with
 								Human-in-the-Loop under the Data Sparsity Constraint.
+							</span>{" "}
+							<span className="font-bold">
+								NeurIPS 2022 Workshop SyntheticData4ML.
 							</span>
-							arXiv.
 						</li>
 					</a>
 					<a
@@ -97,7 +121,8 @@ function Publication_list() {
 								Leveraging the potential of synthetic text for AI in mental
 								healthcare.
 							</span>{" "}
-							Frontiers in Digital Health, 4, 1010202.
+							<span className="font-bold">Frontiers in Digital Health</span>, 4,
+							1010202.
 						</li>
 					</a>
 					<a
@@ -112,9 +137,7 @@ function Publication_list() {
 								SURF: Semantic-level Unsupervised Reward Function for Machine
 								Translation.
 							</span>{" "}
-							Proceedings of the 2022 Conference of the North American Chapter
-							of the Association for Computational Linguistics: Human Language
-							Technologies, 4508–4522.
+							<span className="font-bold">NAACL (25.2% acceptance rate).</span>
 						</li>
 					</a>
 					<a
@@ -129,7 +152,8 @@ function Publication_list() {
 								Modeling Disagreement in Automatic Data Labelling for
 								Semi-Supervised Learning in Clinical Natural Language
 								Processing.
-							</span>
+							</span>{" "}
+							<span className="font-bold">Under review.</span>
 						</li>
 					</a>
 					<a
@@ -145,8 +169,7 @@ function Publication_list() {
 								Exploiting Multimodal Reinforcement Learning for Simultaneous
 								Machine Translation.
 							</span>{" "}
-							Proceedings of the 16th Conference of the European Chapter of the
-							Association for Computational Linguistics.
+							<span className="font-bold">EACL (24.7% acceptance rate).</span>
 						</li>
 					</a>
 					<a
@@ -162,8 +185,26 @@ function Publication_list() {
 							<span className="text-cyan-500 font-semi-bold">
 								Generation and evaluation of artificial mental health records
 								for Natural Language Processing.{" "}
+							</span>{" "}
+							<span className="font-bold">
+								Nature Digital Medicine (Rank 1st quartile, Impact factor 15.2).{" "}
 							</span>
-							Npj Digital Medicine 2020 3:1, 3(1), 1–9.
+						</li>
+					</a>
+					<a
+						href="https://aclanthology.org/P19-1653/"
+						target="_blank"
+						rel="noreferrer"
+						className="block hover:border-indigo-600 -py-4"
+					>
+						<li className="w-full border border-transparent rounded-2xl px-2 transition-all duration-300 hover:border-indigo-600">
+							Ive, J., Madhyastha, P., & Specia, L. (2019).{" "}
+							<span className="text-cyan-500 font-semi-bold">
+								Distilling Translations with Visual Awareness.
+							</span>{" "}
+							<span className="font-bold">
+								ACL 2019 (25.7% acceptance rate).
+							</span>
 						</li>
 					</a>
 				</ul>
