@@ -1,18 +1,19 @@
 import conferenceImage from "./assets/conference1.jpeg";
+import Team from "./assets/Team.png";
 // const benefits = [
 // 	"Various types of coffee beans",
 // 	"Coworking area",
 // 	"Meeting room",
 // ];
 
-export default function TwoColumnsWithImage() {
+function TwoColumnsWithImage() {
 	return (
 		<section className="container mx-auto flex flex-col items-center px-8 py-36 sm:flex-row-reverse sm:px-12">
 			<div className="mb-8 w-full sm:mb-0 sm:w-1/2 sm:pl-4 md:pl-16">
 				<img
 					alt="Conference in Padua, Italy"
 					className="rounded-lg sm:rounded-br-[80px] sm:rounded-tl-[120px]"
-					src={conferenceImage}
+					src={Team}
 				/>
 			</div>
 			<div className="mr-4 w-full text-center sm:w-1/2 sm:text-left">
@@ -54,3 +55,5 @@ export default function TwoColumnsWithImage() {
 		</section>
 	);
 }
+
+export default TwoColumnsWithImage;
