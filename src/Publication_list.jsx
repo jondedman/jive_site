@@ -17,7 +17,7 @@ function Publication_list() {
 							<span className="text-cyan-500 font-semi-bold">
 								Safe Training with Sensitive In-domain Data: Leveraging Data
 								Fragmentation To Mitigate Linkage Attacks.
-							</span>
+							</span>{" "}
 							<span className="font-bold"> arXiv.</span>
 						</li>
 					</a>
@@ -31,7 +31,7 @@ function Publication_list() {
 							Rahaman, M. A., & Ive, J. (2023).{" "}
 							<span className="text-cyan-500 font-semi-bold">
 								Source Code is a Graph, Not a Sequence: A Cross-Lingual
-								Perspective on Code Clone Detection.{""}
+								Perspective on Code Clone Detection.{" "}
 							</span>
 							<span className="font-bold">
 								To appear in NAACL Student Research Workshop (SRW) 2024.
@@ -50,7 +50,7 @@ function Publication_list() {
 							<span className="text-cyan-500 font-semi-bold">
 								Classifying Social Media Users Before and After Depression
 								Diagnosis via their Language Usage: A Dataset and Study.
-							</span>
+							</span>{" "}
 							<span className="font-bold"> To appear in LREC-COLING 2024.</span>
 						</li>
 					</a>
@@ -62,7 +62,7 @@ function Publication_list() {
 						className="block hover:border-indigo-600 -py-4"
 					>
 						<li className="w-full border border-transparent rounded-2xl px-2 transition-all duration-300 hover:border-indigo-600">
-							Alhamed, F., Ive, J., & Specia, L. (2024).
+							Alhamed, F., Ive, J., & Specia, L. (2024).{" "}
 							<span className="text-cyan-500 font-semi-bold">
 								Using Large Language Models (LLMs) to Extract Evidence from
 								Pre-Annotated Social Media Data.{" "}
@@ -99,7 +99,7 @@ function Publication_list() {
 					>
 						<li className="w-full border border-transparent rounded-2xl px-2 transition-all duration-300 hover:border-indigo-600">
 							Wu, H.-Y., Zhang, J., Ive, J., Li, T., Gupta, V., Chen, B., & Guo,
-							Y. (2022).
+							Y. (2022).{" "}
 							<span className="text-cyan-500 font-semi-bold">
 								Medical Scientific Table-to-Text Generation with
 								Human-in-the-Loop under the Data Sparsity Constraint.
@@ -164,7 +164,7 @@ function Publication_list() {
 					>
 						<li className="w-full border border-transparent rounded-2xl px-2 transition-all duration-300 hover:border-indigo-600">
 							Ive, J., Li, A. M., Miao, Y., Caglayan, O., Madhyastha, P., &
-							Specia, L. (2021).
+							Specia, L. (2021).{" "}
 							<span className="text-cyan-500 font-semi-bold">
 								Exploiting Multimodal Reinforcement Learning for Simultaneous
 								Machine Translation.
