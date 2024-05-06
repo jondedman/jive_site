@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 function Header() {
+	const [isSubmenuVisible, setSubmenuVisible] = useState(false);
 	const [isMenuOpen, setMenuOpen] = useState(false);
 	return (
 		<header className="container mx-auto flex w-full items-center justify-between py-4 px-6 fixed top-0 z-10">
@@ -88,9 +89,25 @@ function Header() {
 						<a
 							className="block whitespace-nowrap px-2 py-2 text-md text-slate-600 no-underline transition hover:text-slate-900"
 							href="/contact"
+							onClick={(e) => {
+								e.preventDefault();
+								setSubmenuVisible(!isSubmenuVisible);
+							}}
 						>
-							<a href="mailto:j.ive@qmul.ac.uk">j.ive@qmul.ac.uk</a>
+							Contact
 						</a>
+						{isSubmenuVisible && (
+							<ul className="absolute left-0 w-48 mt-2 space-y-2 text-md bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+								<li>
+									<a
+										className="block whitespace-nowrap px-2 py-2 text-md text-slate-600 no-underline transition hover:text-slate-900"
+										href="mailto:j.ive@qmul.ac.uk"
+									>
+										j.ive@qmul.ac.uk
+									</a>
+								</li>
+							</ul>
+						)}
 					</li>
 					<li className="group relative">
 						<a
@@ -176,38 +193,6 @@ function Header() {
 						>
 							Publications
 						</a>
-						{/* <ul className="h-0 space-y-2 overflow-y-hidden bg-slate-50 px-4 py-0 transition-all delay-75 ease-in-out group-hover:h-full group-hover:py-4 ">
-							<li>
-								<a
-									className="undefined block whitespace-nowrap px-2 py-2 text-sm text-slate-600 no-underline transition hover:text-slate-900 "
-									href="#"
-								></a>
-							</li>
-							<li>
-								<a
-									className="undefined block whitespace-nowrap px-2 py-2 text-sm text-slate-600 no-underline transition hover:text-slate-900 "
-									href="#"
-								>
-									Publication 1
-								</a>
-							</li>
-							<li>
-								<a
-									className="undefined block whitespace-nowrap px-2 py-2 text-sm text-slate-600 no-underline transition hover:text-slate-900 "
-									href="#"
-								>
-									Publication 2
-								</a>
-							</li>
-							<li>
-								<a
-									className="undefined block whitespace-nowrap px-2 py-2 text-sm text-slate-600 no-underline transition hover:text-slate-900 "
-									href="#"
-								>
-									Publication 3
-								</a>
-							</li>
-						</ul> */}
 					</li>
 					<li className="group relative w-full overflow-x-visible text-right">
 						<a

@@ -1,5 +1,4 @@
 import { useState, useEffect, useCallback } from "react";
-// import { ChevronLeft, ChevronRight } from "react-feather"
 
 import PropTypes from "prop-types";
 
