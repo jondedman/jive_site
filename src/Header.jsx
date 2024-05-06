@@ -31,40 +31,6 @@ function Header() {
 						>
 							Publications
 						</a>
-						{/* <ul className="invisible absolute z-30 space-y-2 rounded-lg border border-slate-50 bg-white p-4 opacity-0 shadow-xl transition-opacity delay-75 ease-in-out group-hover:visible group-hover:opacity-100 dark:border-slate-800 dark:bg-slate-900">
-							<li>
-								<a
-									className="undefined block whitespace-nowrap px-2 py-2 text-sm text-slate-600 no-underline transition hover:text-slate-900 "
-									href="#"
-								>
-									Publication 1
-								</a>
-							</li>
-							<li>
-								<a
-									className="undefined block whitespace-nowrap px-2 py-2 text-sm text-slate-600 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
-									href="#"
-								>
-									Publication 2
-								</a>
-							</li>
-							<li>
-								<a
-									className="undefined block whitespace-nowrap px-2 py-2 text-sm text-slate-600 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
-									href="#"
-								>
-									Publication 3
-								</a>
-							</li>
-							<li>
-								<a
-									className="undefined block whitespace-nowrap px-2 py-2 text-sm text-slate-600 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
-									href="#"
-								>
-									Publication 4
-								</a>
-							</li>
-						</ul> */}
 					</li>
 					<li className="group relative">
 						<a
@@ -102,6 +68,8 @@ function Header() {
 									<a
 										className="block whitespace-nowrap px-2 py-2 text-md text-slate-600 no-underline transition hover:text-slate-900"
 										href="mailto:j.ive@qmul.ac.uk"
+										target="_blank"
+										rel="noopener noreferrer"
 									>
 										j.ive@qmul.ac.uk
 									</a>
@@ -217,11 +185,32 @@ function Header() {
 					<li className="group relative w-full overflow-x-visible text-right">
 						<a
 							className="mx-4 block
-            whitespace-nowrap px-2 py-2 text-sm text-slate-900 no-underline transition hover:text-slate-900"
-							href="#"
+						whitespace-nowrap px-2 py-2 text-sm text-slate-600 no-underline transition hover:text-slate-900"
+							href="/contact"
+							target="_blank"
+							rel="noopener noreferrer"
+							onClick={(e) => {
+								e.preventDefault();
+								setSubmenuVisible(!isSubmenuVisible);
+							}}
 						>
-							<a href="mailto:j.ive@qmul.ac.uk">j.ive@qmul.ac.uk</a>
+							Contact
 						</a>
+						{isSubmenuVisible && (
+							<ul>
+								<li className="group relative w-full overflow-x-visible text-right">
+									<a
+										className="mx-4 block
+            whitespace-nowrap px-2 py-2 text-sm text-slate-900 no-underline transition hover:text-slate-900"
+										href="mailto:j.ive@qmul.ac.uk"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										j.ive@qmul.ac.uk
+									</a>
+								</li>
+							</ul>
+						)}
 					</li>
 				</ul>
 			</nav>
