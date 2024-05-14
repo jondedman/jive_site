@@ -18,11 +18,12 @@ function News() {
 							date="April 22, 2024"
 							title="What will we be saying about AI in ten years’ time?"
 							description="will be discussing what crisis points may have emerged recently and what AI governance structures might look like."
-							readMoreLink="#"
+							readMoreLink="https://www.nottingham.ac.uk/humanities/departments/philosophy/news-and-events/events/2024/ai-in-ten-years-time.aspx"
 							nameLink={[
-								{ url: "http://example.com/dr-ive", name: "Dr Ive" },
+								{ url: "https://julia-ive.github.io/", name: "Dr Julia Ive" },
 								{
-									url: "http://example.com/professor-gianluca-sergi",
+									url:
+										"https://www.nottingham.ac.uk/clas/people/gianluca.sergi",
 									name: "Professor Gianluca Sergi",
 								},
 							]}
@@ -36,15 +37,17 @@ function News() {
 							readMoreLink="https://www.eventbrite.co.uk/e/the-promise-of-ai-working-across-disciplines-for-the-public-good-tickets-848336065007"
 							nameLink={[
 								{
-									url: "http://example.com/dr-julia-ive",
+									url: "https://julia-ive.github.io/",
 									name: "Dr Julia Ive",
 								},
 								{
-									url: "http://example.com/david-leslie",
+									url:
+										"https://www.turing.ac.uk/people/researchers/david-leslie",
 									name: "David Leslie",
 								},
 								{
-									url: "http://example.com/dr-isadora-cruxen",
+									url:
+										"https://www.qmul.ac.uk/busman/staff/academic/profiles/cruxeni.html",
 									name: "Dr Isadora Cruxen",
 								},
 							]}
@@ -54,11 +57,10 @@ function News() {
 							imageAlt="Mitigating bias poster"
 							date="Mar 28, 2024"
 							title="Mental Health Monitoring workshop"
-							description="presented the poster at AI for Mental Health Monitoring workshop at the Fringe Event of Alan Turing Institute"
+							description="and Vishal presented the poster at the AI for Mental Health Monitoring workshop at the Fringe Event of Alan Turing Institute"
 							readMoreLink={poster}
 							nameLink={[
-								{ url: "http://example.com/julia", name: "Julia" },
-								{ url: "http://example.com/vishal", name: "Vishal" },
+								{ url: "https://julia-ive.github.io/", name: "Julia" },
 							]}
 						/>
 						<NewsCard
@@ -67,11 +69,10 @@ function News() {
 							imageClass={"object-cover"}
 							date="21-22 March, 2024"
 							title="Artificial Intelligence in Healthcare: Shaping the Future of Science (AI4H) Conference, University of Padua, Padova, Italy"
-							description="Dr Julia Ive and Mariia present the poster for Mitigating Bias in Pediatric Mental Health Notes via rewriting."
+							description="and Mariia present the poster for Mitigating Bias in Pediatric Mental Health Notes via rewriting."
 							readMoreLink="https://ai4h.unipd.it/home/posters/"
 							nameLink={[
-								{ url: "http://example.com/julia", name: "Julia" },
-								{ url: "http://example.com/mariia", name: "Mariia" },
+								{ url: "https://julia-ive.github.io/", name: "Julia" },
 							]}
 						/>
 						<NewsCard
@@ -79,9 +80,11 @@ function News() {
 							imageAlt="picture of gold blur"
 							date="Mar 18, 2024"
 							title="Regulating AI in Digital Mental Health Forum"
-							description="Dr Julia Ive will be speaking at the Regulating AI in Digital Mental Health Forum, AI Turing Fringe Event."
+							description="will be speaking at the Regulating AI in Digital Mental Health Forum, AI Turing Fringe Event."
 							readMoreLink="https://events.bizzabo.com/576079/agenda/speakers/3223878"
-							nameLink={[{ url: "http://example.com/julia", name: "Julia" }]}
+							nameLink={[
+								{ url: "https://julia-ive.github.io/", name: "Dr Julia Ive" },
+							]}
 						/>
 					</div>
 				</div>

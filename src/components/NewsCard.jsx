@@ -4,7 +4,12 @@ import React from "react";
 function parseLinks(links) {
 	return links.map((link, index) => (
 		<React.Fragment key={index}>
-			<a className="underline" href={link.url}>
+			<a
+				className="underline"
+				href={link.url}
+				target="_blank"
+				rel="noopener noreferrer"
+			>
 				{link.name}
 			</a>
 			{links.length === 2 && index === 0 && " and "}
