@@ -5,14 +5,15 @@ import Footer from "./components/Footer";
 import Carousel from "./components/Carousel";
 import PublicationList from "./components/PublicationList";
 import Collaborators from "./components/Collaborators";
-import NewsTwo from "./components/NewsTwo";
+// import NewsTwo from "./components/NewsTwo";
 import Slide from "./components/Slide";
-import NewsThree from "./components/NewsThree";
+// import NewsThree from "./components/NewsThree";
+import News from "./components/News";
 
 const videoUrls = [
-	"https://www.youtube.com/embed/Kqh9DtCNji4",
-	"https://www.youtube.com/embed/j5cDDuLYcgE",
-	"https://www.youtube.com/embed/w6HUFTcHfPg",
+	"https://www.youtube-nocookie.com/embed/Kqh9DtCNji4",
+	"https://www.youtube-nocookie.com/embed/j5cDDuLYcgE",
+	"https://www.youtube-nocookie.com/embed/w6HUFTcHfPg",
 ];
 
 function App() {
@@ -37,8 +38,9 @@ function App() {
 				<span className="text-cyan-500">N</span>
 				<span>ews</span>
 			</h1>
-			<NewsTwo />
-			<NewsThree />
+			{/* <NewsTwo />
+			<NewsThree /> */}
+			<News />
 
 			<StaffColumns />
 			<Collaborators />
