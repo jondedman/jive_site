@@ -1,4 +1,4 @@
-import Maria from "./assets/Mariia.jpg";
+import Maria from "../assets/Mariia.jpg";
 
 function Publication_three() {
 	return (
