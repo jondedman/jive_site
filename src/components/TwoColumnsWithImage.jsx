@@ -1,10 +1,4 @@
-import conferenceImage from "./assets/conference1.jpeg";
-import Team from "./assets/Team.png";
-// const benefits = [
-// 	"Various types of coffee beans",
-// 	"Coworking area",
-// 	"Meeting room",
-// ];
+import Team from "../assets/Team.png";
 
 function TwoColumnsWithImage() {
 	return (
@@ -35,22 +29,6 @@ function TwoColumnsWithImage() {
 					healthcare contexts. Beyond mental health, we also work with legal
 					data.
 				</p>
-				{/* <ul className="mb-8 flex flex-col items-center space-y-1 dark:text-slate-400 sm:items-start">
-					{benefits.map((benefit, index) => (
-						<li className="flex items-end" key={index}>
-							<span className="mr-2 text-orange-300">&#10003;</span>
-							<span>{benefit}</span>
-						</li>
-					))}
-				</ul> */}
-				{/* <div className="flex flex-col space-y-3 md:flex-row md:space-x-2 md:space-y-0">
-					<button className="rounded-lg border-0 bg-slate-900 px-6 py-3 text-base text-white shadow-lg shadow-slate-300 transition hover:bg-orange-300 hover:text-slate-900 hover:shadow-orange-300 dark:bg-orange-300 dark:text-black dark:shadow-sm dark:shadow-orange-300 dark:hover:bg-orange-400 sm:py-2">
-						Possible Button 1
-					</button>
-					<button className="rounded-lg border-0 bg-white px-6 py-3 text-base text-slate-900 shadow-lg shadow-slate-100 transition hover:bg-orange-300 hover:text-slate-900 hover:shadow-orange-300 dark:bg-slate-700 dark:text-slate-300 dark:shadow-sm dark:shadow-slate-800 dark:hover:bg-slate-600 sm:py-2">
-						Possible Button 2
-					</button>
-				</div> */}
 			</div>
 		</section>
 	);

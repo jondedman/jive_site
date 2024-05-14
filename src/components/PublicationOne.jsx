@@ -1,7 +1,7 @@
 // import Maria from "./assets/Mariia.jpg";
-import pub1 from "./assets/pub1.jpg";
+import pub1 from "../assets/pub1.jpg";
 
-function Publication_one() {
+function PublicationOne() {
 	return (
 		<div className="flex w-full flex-col justify-between rounded-lg bg-white py-8 px-6 text-center text-slate-800 shadow-lg shadow-slate-200 transition dark:bg-slate-800 dark:shadow-slate-800">
 			<div className="flex flex-col justify-between h-full w-full text-center text-sm">
@@ -35,4 +35,4 @@ function Publication_one() {
 	);
 }
 
-export default Publication_one;
+export default PublicationOne;

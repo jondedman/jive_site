@@ -1,22 +1,22 @@
-import Header from "./Header"; // Assuming Header is in the same directory
-import TwoColumnsWithImage from "./TwoColumnsWithImage";
-import StaffColumns from "./StaffColumns";
-import Footer from "./Footer";
-import Carousel from "./Carousel";
+import Header from "./components/Header"; // Assuming Header is in the same directory
+import TwoColumnsWithImage from "./components/TwoColumnsWithImage";
+import StaffColumns from "./components/StaffColumns";
+import Footer from "./components/Footer";
+import Carousel from "./components/Carousel";
 import MariiaPoster from "./assets/MariiaPoster.jpeg";
-import Publications from "./Publications";
-import Publication_list from "./Publication_list";
-import Event from "./Event1";
+import Publications from "./components/Publications";
+import PublicationList from "./components/PublicationList";
+import Event from "./components/Event1";
 import promiseAi from "./assets/promiseAi.jpeg";
 import structures from "./assets/joel-filipe-unsplash.jpg";
 import bias from "./assets/mitigating_bias.png";
 import eagle from "./assets/eagle.jpg";
-import Videos from "./Videos";
-import Collaborators from "./Collaborators";
-import News from "./News";
-import NewsTwo from "./NewsTwo";
-import Slide from "./Slide";
-import NewsThree from "./NewsThree";
+import Videos from "./components/Videos";
+import Collaborators from "./components/Collaborators";
+import News from "./components/News";
+import NewsTwo from "./components/NewsTwo";
+import Slide from "./components/Slide";
+import NewsThree from "./components/NewsThree";
 
 const videoUrls = [
 	"https://www.youtube.com/embed/Kqh9DtCNji4",
@@ -38,7 +38,7 @@ function App() {
 					</Carousel>
 				</div>
 			</div>
-			<Publication_list />
+			<PublicationList />
 			<h1
 				id="news"
 				className="w-full text-center text-4xl font-extrabold md:mx-auto md:w-4/5 mt-12 mb-6"

@@ -1,7 +1,7 @@
-import promiseAi from "./assets/promiseAi.jpeg";
-import structures from "./assets/joel-filipe-unsplash.jpg";
-import bias from "./assets/mitigating_bias.png";
-import poster from "./assets/AT-poster-jive.pdf";
+import promiseAi from "../assets/promiseAi.jpeg";
+import structures from "../assets/joel-filipe-unsplash.jpg";
+import bias from "../assets/mitigating_bias.png";
+import poster from "../assets/AT-poster-jive.pdf";
 
 function NewsTwo() {
 	return (

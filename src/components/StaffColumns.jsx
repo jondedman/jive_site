@@ -1,7 +1,7 @@
-import jive from "./assets/jive_linkedin.jpg";
-import Maria from "./assets/Mariia.jpg";
-import Vishal from "./assets/Vishal-001.jpg";
-import Matt from "./assets/Matt.jpeg";
+import jive from "../assets/jive_linkedin.jpg";
+import Maria from "../assets/Mariia.jpg";
+import Vishal from "../assets/Vishal-001.jpg";
+import Matt from "../assets/Matt.jpeg";
 
 function StaffColumns() {
 	return (

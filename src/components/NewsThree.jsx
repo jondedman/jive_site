@@ -1,13 +1,5 @@
-import promiseAi from "./assets/promiseAi.jpeg";
-import structures from "./assets/joel-filipe-unsplash.jpg";
-import bias from "./assets/mitigating_bias.png";
-import tableText from "./assets/tableText.jpg";
-import gold from "./assets/gold.jpg";
-import brainNetwork from "./assets/brainNetwork.jpg";
-import Exploiting from "./assets/Exploiting.jpg";
-import surf from "./assets/surf.jpg";
-import network from "./assets/network.jpg";
-import MariiaPoster from "./assets/MariiaPoster.jpeg";
+import gold from "../assets/gold.jpg";
+import MariiaPoster from "../assets/MariiaPoster.jpeg";
 
 function NewsThree() {
 	return (
