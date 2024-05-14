@@ -33,7 +33,7 @@ function News() {
 							imageAlt="blogs tailwind section"
 							date="April 18, 2024"
 							title="The promise of AI: working across disciplines for the public good"
-							description="will be presenting a seminar at the event. With at Queen Mary University of London"
+							description="will be presenting a seminar at Queen Mary University of London."
 							readMoreLink="https://www.eventbrite.co.uk/e/the-promise-of-ai-working-across-disciplines-for-the-public-good-tickets-848336065007"
 							nameLink={[
 								{
