@@ -141,13 +141,3 @@ function Publications() {
 }
 
 export default Publications;
-
-// Ive, J. (2022). Leveraging the potential of synthetic text for AI in mental healthcare. Frontiers in Digital Health, 4, 1010202. https://doi.org/10.3389/FDGTH.2022.1010202/BIBTEX
-
-// Anuchitanukul, A., & Ive, J. (2022). SURF: Semantic-level Unsupervised Reward Function for Machine Translation. Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 4508–4522. https://aclanthology.org/2022.naacl-main.334.pdf
-
-// Liu, H., Seedat, N., & Ive, J. (2022). Modeling Disagreement in Automatic Data Labelling for Semi-Supervised Learning in Clinical Natural Language Processing. https://arxiv.org/abs/2205.14761
-
-// Ive, J., Li, A. M., Miao, Y., Caglayan, O., Madhyastha, P., & Specia, L. (2021). Exploiting Multimodal Reinforcement Learning for Simultaneous Machine Translation. Proceedings of the 16th Conference of the {E}uropean Chapter of the Association for Computational Linguistics.  https://arxiv.org/pdf/2102.11387
-
-// Ive, J., Viani, N., Kam, J., Yin, L., Verma, S., Puntis, S., Cardinal, R. N., Roberts, A., Stewart, R., & Velupillai, S. (2020). Generation and evaluation of artificial mental health records for Natural Language Processing. Npj Digital Medicine 2020 3:1, 3(1), 1–9. https://doi.org/10.1038/s41746-020-0267-x
