@@ -5,7 +5,7 @@ import Matt from "../assets/Matt.jpeg";
 
 function StaffColumns() {
 	return (
-		<section id="team" className="container mx-auto px-12 py-16">
+		<section id="team" className="container mx-auto px-12 py-16 mt-16">
 			<h1 className="w-full text-center text-4xl font-extrabold md:mx-auto md:w-4/5">
 				<span>The</span> <span className="text-cyan-500">Team</span>
 			</h1>
@@ -42,14 +42,59 @@ function StaffColumns() {
 							></a>{" "}
 							online ResponsibleAI course at The Alan Turing Institute.
 						</p>
+						<h3
+							id="teaching"
+							className="w-full text-center text-2xl font-semibold md:mx-auto md:w-4/5 mb-4"
+						>
+							Teaching
+						</h3>
+						<p className="mb-6 leading-relaxed text-slate-500">
+							<ul>
+								<li>
+									2022 – 2024 MSc, Neural Networks & NLP, Queen Mary University
+									of London
+								</li>
+								<li>
+									2021 – 2024 MSc, Artificial Intelligence, Queen Mary
+									University of London
+								</li>
+								<br />
+								<li>
+									{" "}
+									<a
+										href="https://www.turing.ac.uk/building-transparent-ai-systems-general-principles-and-case-studies-nlp"
+										target="blank"
+										rel="noopener noreferrer"
+										className="underline"
+									>
+										ResponsibleAI course at Turing.
+									</a>{" "}
+									For the interested experts, a key outcome is being familiar
+									with the main techniques of designing explainable (xAI) and
+									transparent systems and being able to use them in practice for
+									AI; for AI practitioners in particular, another key outcome is
+									being able to build NLP classification models which explain
+									their decisions using natural language{" "}
+									<a
+										href="https://github.com/alan-turing-institute/Building-transparent-AI-Systems-course"
+										target="blank"
+										rel="noopener noreferrer"
+										className="underline"
+									>
+										(Github).
+									</a>
+								</li>
+							</ul>
+						</p>
 					</div>
 
 					<div>
-						<div className="font-bold text-slate-600 p-4 mb-4">
+						<div className="font-bold text-slate-600 p-4 mb-8">
 							<a
 								href="https://julia-ive.github.io"
 								target="blank"
 								rel="no opener noreferrer"
+								className="underline"
 							>
 								Dr Julia Ive
 							</a>
