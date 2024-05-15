@@ -1,22 +1,27 @@
 import PropTypes from "prop-types";
 import React from "react";
 
-function parseLinks(links) {
-	return links.map((link, index) => (
-		<React.Fragment key={index}>
-			<a
-				className="underline"
-				href={link.url}
-				target="_blank"
-				rel="noopener noreferrer"
-			>
-				{link.name}
-			</a>
-			{links.length === 2 && index === 0 && " and "}
-			{index < links.length - 1 && links.length > 2 && ", "}
-		</React.Fragment>
-	));
+function parseDescription(description) {
+	return description.map((item, index) => {
+		if (item.type === "text") {
+			return <span key={index}>{item.content}</span>;
+		} else if (item.type === "link") {
+			return (
+				<a
+					key={index}
+					className="underline"
+					href={item.url}
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					{item.content}
+				</a>
+			);
+		}
+	});
 }
+
+// In your NewsCard component:
 
 function NewsCard({
 	imageSrc,
@@ -25,7 +30,7 @@ function NewsCard({
 	title,
 	description,
 	readMoreLink,
-	nameLink,
+	// nameLink,
 	imageClass,
 }) {
 	return (
@@ -43,7 +48,7 @@ function NewsCard({
 					{title}
 				</h4>
 				<p className="text-gray-500 leading-6 mb-10">
-					{parseLinks(nameLink)} {description}
+					{parseDescription(description)}
 				</p>
 				<a
 					className="cursor-pointer text-lg text-cyan-500 font-semibold"
