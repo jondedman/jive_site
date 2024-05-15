@@ -54,6 +54,22 @@ function Header() {
 					<li className="group relative">
 						<a
 							className="block whitespace-nowrap px-2 py-2 text-md text-slate-600 no-underline transition hover:text-slate-900"
+							href="#team"
+						>
+							Team
+						</a>
+					</li>
+					<li className="group relative">
+						<a
+							className="block whitespace-nowrap px-2 py-2 text-md text-slate-600 no-underline transition hover:text-slate-900"
+							href="#teaching"
+						>
+							Teaching
+						</a>
+					</li>
+					<li className="group relative">
+						<a
+							className="block whitespace-nowrap px-2 py-2 text-md text-slate-600 no-underline transition hover:text-slate-900"
 							href="/contact"
 							onClick={(e) => {
 								e.preventDefault();
@@ -76,14 +92,6 @@ function Header() {
 								</li>
 							</ul>
 						)}
-					</li>
-					<li className="group relative">
-						<a
-							className="block whitespace-nowrap px-2 py-2 text-md text-slate-600 no-underline transition hover:text-slate-900"
-							href="#team"
-						>
-							Team
-						</a>
 					</li>
 				</ul>
 			</nav>
@@ -180,6 +188,24 @@ function Header() {
 							rel="noopener noreferrer"
 						>
 							Google Scholar
+						</a>
+					</li>
+					<li className="group relative w-full overflow-x-visible text-right">
+						<a
+							className="mx-4 block
+																  whitespace-nowrap px-2 py-2 text-sm text-slate-600 no-underline transition hover:text-slate-900"
+							href="#team"
+						>
+							Team
+						</a>
+					</li>
+					<li className="group relative w-full overflow-x-visible text-right">
+						<a
+							className="mx-4 block
+							white-space-nowrap px-2 py-2 text-sm text-slate-600 no-underline transition hover:text-slate-900"
+							href="#teaching"
+						>
+							Teaching
 						</a>
 					</li>
 					<li className="group relative w-full overflow-x-visible text-right">
