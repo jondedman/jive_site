@@ -15,11 +15,11 @@ function News() {
 					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 						<NewsCard
 							imageSrc={cog}
-							imageAlt="Photo by Joel Filipe on Unsplash"
+							imageAlt="Picture of delegates at CogX event"
 							date="May 9, 2024"
 							title="Addressing Socio-technical Limitations of LLMs for Medical and Social Computing"
 							description={[
-								{ type: "text", content: "Julia Ive represents the " },
+								{ type: "text", content: "Dr Julia Ive represents the " },
 								{
 									type: "link",
 									content: "Responsible Ai UK",
@@ -45,6 +45,7 @@ function News() {
 									content: "CogX Los Angeles",
 									url: "https://www.cogxfestival.com/",
 								},
+								{ type: "text", content: "." },
 							]}
 							readMoreLink="https://www.cogxfestival.com/"
 						/>
@@ -54,7 +55,7 @@ function News() {
 							date="April 22, 2024"
 							title="What will we be saying about AI in ten years’ time?"
 							description={[
-								{ type: "text", content: "Julia Ive and " },
+								{ type: "text", content: "Dr Julia Ive and " },
 								{
 									type: "link",
 									content: "Professor Gianluca Sergi",
@@ -78,7 +79,7 @@ function News() {
 							description={[
 								{
 									type: "link",
-									content: "Dr Julia Ive,",
+									content: "Dr Julia Ive ",
 									url: "https://julia-ive.github.io/",
 								},
 								{
@@ -88,11 +89,11 @@ function News() {
 								},
 								{
 									type: "link",
-									content: "David Leslie",
+									content: "David Leslie ",
 									url:
 										"https://www.turing.ac.uk/people/researchers/david-leslie",
 								},
-								{ type: "text", content: "and" },
+								{ type: "text", content: "and " },
 								{
 									type: "link",
 									content: "Dr Isadora Cruxen",
@@ -112,7 +113,7 @@ function News() {
 								{
 									type: "text",
 									content:
-										"Julia and Vishal presented the poster at the AI for Mental Health Monitoring workshop at the Fringe Event of Alan Turing Institute",
+										"Julia and Vishal presented the poster at the AI for Mental Health Monitoring workshop at the Fringe Event of Alan Turing Institute.",
 								},
 							]}
 							readMoreLink={poster}
