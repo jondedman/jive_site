@@ -58,6 +58,11 @@ function StaffColumns() {
 									2021 – 2024 MSc, Artificial Intelligence, Queen Mary
 									University of London
 								</li>
+								<li>
+									2020 – 2021 MSc, NLP (lectures on text classification and
+									Transformers), Imperial College London, module organiser: Prof
+									Lucia Specia
+								</li>
 								<br />
 								<li>
 									{" "}
