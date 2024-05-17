@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-import React from "react";
 
 function parseDescription(description) {
 	return description.map((item, index) => {
@@ -68,7 +67,13 @@ NewsCard.propTypes = {
 	imageAlt: PropTypes.string.isRequired,
 	date: PropTypes.string.isRequired,
 	title: PropTypes.string.isRequired,
-	description: PropTypes.string.isRequired,
+	description: PropTypes.arrayOf(
+		PropTypes.shape({
+			type: PropTypes.string.isRequired,
+			content: PropTypes.string.isRequired,
+			url: PropTypes.string,
+		})
+	).isRequired,
 	readMoreLink: PropTypes.string.isRequired,
 	nameLink: PropTypes.arrayOf(
 		PropTypes.shape({
