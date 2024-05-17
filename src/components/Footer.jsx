@@ -1,4 +1,6 @@
 function Footer() {
+	const YEAR = new Date().getFullYear();
+	console.log(YEAR);
 	return (
 		<footer className="mt-28 bg-slate-50">
 			<div className="container mx-auto flex flex-col items-start space-y-12 px-8 pb-8 pt-12 md:flex-row md:space-y-0 md:space-x-12 md:px-12">
@@ -141,7 +143,7 @@ function Footer() {
 				</div> */}
 			</div>
 			<div className="container mx-auto border-t border-slate-200 p-8 text-center text-sm text-slate-600  md:flex-row md:px-12">
-				© 2024 JIVE. All rights reserved.
+				© {YEAR} JIVE. All rights reserved.
 			</div>
 		</footer>
 	);
