@@ -48,49 +48,48 @@ function StaffColumns() {
 						>
 							Teaching
 						</h3>
-						<p className="mb-6 leading-relaxed text-slate-500">
-							<ul>
-								<li>
-									2022 – 2024 MSc, Neural Networks & NLP, Queen Mary University
-									of London
-								</li>
-								<li>
-									2021 – 2024 MSc, Artificial Intelligence, Queen Mary
-									University of London
-								</li>
-								<li>
-									2020 – 2021 MSc, NLP (lectures on text classification and
-									Transformers), Imperial College London, module organiser: Prof
-									Lucia Specia
-								</li>
-								<br />
-								<li>
-									{" "}
-									<a
-										href="https://www.turing.ac.uk/building-transparent-ai-systems-general-principles-and-case-studies-nlp"
-										target="blank"
-										rel="noopener noreferrer"
-										className="underline"
-									>
-										ResponsibleAI course at Turing.
-									</a>{" "}
-									For the interested experts, a key outcome is being familiar
-									with the main techniques of designing explainable (xAI) and
-									transparent systems and being able to use them in practice for
-									AI; for AI practitioners in particular, another key outcome is
-									being able to build NLP classification models which explain
-									their decisions using natural language{" "}
-									<a
-										href="https://github.com/alan-turing-institute/Building-transparent-AI-Systems-course"
-										target="blank"
-										rel="noopener noreferrer"
-										className="underline"
-									>
-										(Github).
-									</a>
-								</li>
-							</ul>
-						</p>
+
+						<ul className="mb-6 leading-relaxed text-slate-500">
+							<li>
+								2022 – 2024 MSc, Neural Networks & NLP, Queen Mary University of
+								London
+							</li>
+							<li>
+								2021 – 2024 MSc, Artificial Intelligence, Queen Mary University
+								of London
+							</li>
+							<li>
+								2020 – 2021 MSc, NLP (lectures on text classification and
+								Transformers), Imperial College London, module organiser: Prof
+								Lucia Specia
+							</li>
+							<br />
+							<li>
+								{" "}
+								<a
+									href="https://www.turing.ac.uk/building-transparent-ai-systems-general-principles-and-case-studies-nlp"
+									target="blank"
+									rel="noopener noreferrer"
+									className="underline"
+								>
+									ResponsibleAI course at Turing.
+								</a>{" "}
+								For the interested experts, a key outcome is being familiar with
+								the main techniques of designing explainable (xAI) and
+								transparent systems and being able to use them in practice for
+								AI; for AI practitioners in particular, another key outcome is
+								being able to build NLP classification models which explain
+								their decisions using natural language{" "}
+								<a
+									href="https://github.com/alan-turing-institute/Building-transparent-AI-Systems-course"
+									target="blank"
+									rel="noopener noreferrer"
+									className="underline"
+								>
+									(Github).
+								</a>
+							</li>
+						</ul>
 					</div>
 
 					<div>
