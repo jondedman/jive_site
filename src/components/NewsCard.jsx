@@ -20,8 +20,6 @@ function parseDescription(description) {
 	});
 }
 
-// In your NewsCard component:
-
 function NewsCard({
 	imageSrc,
 	imageAlt,
