@@ -53,7 +53,8 @@ const publicationData = [
 		description: "NeurIPS 2022 Workshop SyntheticData4ML.",
 	},
 	{
-		url: "https://doi.org/10.3389/FDGTH.2022.1010202/BIBTEX",
+		url:
+			"https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2022.1010202/full",
 		authors: "Ive, J.",
 		year: "2022",
 		title:

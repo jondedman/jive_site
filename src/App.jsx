@@ -1,13 +1,11 @@
-import Header from "./components/Header"; // Assuming Header is in the same directory
+import Header from "./components/Header";
 import TwoColumnsWithImage from "./components/TwoColumnsWithImage";
 import StaffColumns from "./components/StaffColumns";
 import Footer from "./components/Footer";
 import Carousel from "./components/Carousel";
 import PublicationList from "./components/PublicationList";
 import Collaborators from "./components/Collaborators";
-// import NewsTwo from "./components/NewsTwo";
 import Slide from "./components/Slide";
-// import NewsThree from "./components/NewsThree";
 import News from "./components/News";
 
 const videoUrls = [
@@ -38,10 +36,7 @@ function App() {
 				<span className="text-cyan-500">N</span>
 				<span>ews</span>
 			</h1>
-			{/* <NewsTwo />
-			<NewsThree /> */}
 			<News />
-
 			<StaffColumns />
 			<Collaborators />
 			<Footer />
