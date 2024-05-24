@@ -64,6 +64,7 @@ const newsData = [
 	{
 		imageSrc: promiseAi,
 		imageAlt: "blogs tailwind section",
+		imageClass: "object-fit",
 		date: "April 18, 2024",
 		title: "The promise of AI: working across disciplines for the public good",
 		description: [
