@@ -1,0 +1,100 @@
+.header ul {
+	margin-right: 125px;
+	padding: 0;
+	display: flex;
+	list-style-type: none;
+}
+.header ul li a {
+	display: block;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	/* color: red; */
+	text-transform: capitalize;
+	text-decoration: none;
+	position: relative;
+	transition: all 0.5s;
+	color: #262626;
+}
+.header a:hover {
+	color: white;
+}
+.header ul li span {
+	position: absolute;
+	width: 100%;
+	height: 25%;
+	background-color: rgba(50, 50, 50, 0.5);
+	z-index: -1;
+	left: 0;
+	top: 0;
+	transform: scaleX(0);
+	transition: all 0.5s;
+	transform-origin: left;
+}
+.header a:hover span {
+	transform: scaleX(1);
+}
+.header span:nth-child(2) {
+	top: 25%;
+	transition-delay: 0.15s;
+}
+.header span:nth-child(3) {
+	top: 50%;
+	transition-delay: 0.3s;
+}
+.header span:nth-child(4) {
+	top: 75%;
+	transition-delay: 0.45s;
+}
+.header span:nth-child(5) {
+	top: 100%;
+	transition-delay: 0.6s;
+}
+.header span:nth-child(6) {
+	top: 125%;
+	transition-delay: 0.75s;
+}
+.header span:nth-child(7) {
+	top: 150%;
+	transition-delay: 0.9s;
+}
+
+/* Hide main menu on screens smaller than 768px */
+@media (max-width: 767px) {
+	.header ul {
+		display: none;
+	}
+}
+
+/* Show menu button on screens smaller than 768px */
+@media (max-width: 767px) {
+	.menu-button {
+		display: block;
+	}
+}
+
+/* Hide mobile menu by default */
+.header-ul-mobile {
+	display: none;
+}
+
+.header-ul-mobile a:hover {
+	color: cyan;
+	font-weight: bold;
+}
+
+/* Show mobile menu when menu is open */
+.header-ul-mobile.open {
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Show mobile menu on screens smaller than 768px */
+@media (max-width: 767px) {
+	.header-ul-mobile {
+		display: block;
+	}
+}
