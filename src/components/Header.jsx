@@ -347,8 +347,10 @@ function Header() {
 			</ul>
 
 			<button
-				className="block text-slate-600 hover:text-slate-900 sm:hidden z-0"
-				title="Open navigation menu"
+				className={`block text-slate-600 hover:text-slate-900 ${
+					isMenuOpen ? "hidden" : ""
+				} sm:hidden z-0"
+				title="Open navigation menu`}
 				onClick={() => setMenuOpen(!isMenuOpen)}
 			>
 				<svg
