@@ -7,6 +7,7 @@ import PublicationList from "./components/PublicationList";
 import Collaborators from "./components/Collaborators";
 import Slide from "./components/Slide";
 import News from "./components/News";
+import { useEffect } from "react";
 
 const videoUrls = [
 	"https://www.youtube-nocookie.com/embed/Kqh9DtCNji4",
@@ -15,6 +16,9 @@ const videoUrls = [
 ];
 
 function App() {
+	useEffect(() => {
+		document.documentElement.style.scrollBehavior = "smooth";
+	}, []);
 	return (
 		<div className="App">
 			<Header />
