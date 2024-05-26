@@ -90,6 +90,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	font-weight: bold;
 }
 
 /* Show mobile menu on screens smaller than 768px */
