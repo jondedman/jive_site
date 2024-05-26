@@ -4,7 +4,7 @@ import "./PublicationCard.css";
 function PublicationCard({ url, authors, title, year, description }) {
 	return (
 		<a href={url} target="_blank" rel="noreferrer" className="block -py-4 link">
-			<li className="w-full border border-transparent rounded-2xl transition-all duration-300 hover:border-indigo-600 px-2">
+			<li className="w-full border border-transparent rounded-2xl transition-all duration-300 px-2">
 				{authors} ({year}).{" "}
 				<span className="text-cyan-500 font-bold">{title}</span>{" "}
 				<span className="font-bold">{description}</span>
