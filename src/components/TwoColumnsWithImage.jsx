@@ -1,4 +1,4 @@
-import Team from "../assets/Team.png";
+import Team3 from "../assets/Team3.png";
 
 function TwoColumnsWithImage() {
 	return (
@@ -7,7 +7,7 @@ function TwoColumnsWithImage() {
 				<img
 					alt="Conference in Padua, Italy"
 					className="rounded-lg sm:rounded-br-[80px] sm:rounded-tl-[120px]"
-					src={Team}
+					src={Team3}
 				/>
 			</div>
 			<div className="mr-4 w-full text-center sm:w-1/2 sm:text-left">
