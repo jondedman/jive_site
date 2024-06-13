@@ -6,8 +6,24 @@ import poster from "../assets/AT-poster-jive.pdf";
 import MariiaPoster from "../assets/MariiaPoster.jpeg";
 import gold from "../assets/gold.jpg";
 import cog from "../assets/CogX.jpeg";
+import crystalBall from "../assets/drew-beamer-crystal.jpg";
 
 const newsData = [
+	{
+		imageSrc: crystalBall,
+		imageAlt: "crystal ball",
+		date: "June 13, 2024",
+		title: "What will we be saying about AI in ten years’ time?",
+		description: [
+			{
+				type: "text",
+				content:
+					"Séminaire proposé par Julia Ive, Queen Mary University, invitée à ETIS en juin 2024.",
+			},
+		],
+		readMoreLink:
+			"https://www.etis-lab.fr/event/what-will-we-be-saying-about-ai-in-ten-years-time/",
+	},
 	{
 		imageSrc: cog,
 		imageAlt: "Picture of delegates at CogX event",
